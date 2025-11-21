@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DirectLake - Crunchbase_Lake"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb"]
+
+ref table videos
+ref table partners
+ref table links
+ref table images
+ref table companies_cleansed
+ref table providerships
+ref table products
+ref table relationships
+ref table acquisitions
+ref table investments
+ref table competitions
+ref table offices
+ref table milestones
+ref table fundings
+

@@ -1,0 +1,37 @@
+table competitions
+	lineageTag: 28cbae3e-fb50-465d-935a-8fde3fc1f92f
+	sourceLineageTag: [dbo].[competitions]
+
+	column _id
+		dataType: string
+		lineageTag: 708badac-a6fb-4015-afe3-6e2639e877f7
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 7d1be88c-8bf7-42bf-9e44-19142da5061a
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: dc0237e9-eddf-45cd-9479-9aa1a41221d0
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	partition competitions = entity
+		mode: directLake
+		source
+			entityName: competitions
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

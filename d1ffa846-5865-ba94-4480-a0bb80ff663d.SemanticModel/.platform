@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "SemanticModel",
-    "displayName": "Crunchbase_Model_old"
+    "displayName": "Crunchbase_Model"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "ebd57d18-6b85-bfb6-4ea4-66bd15fe5285"
+    "logicalId": "d1ffa846-5865-ba94-4480-a0bb80ff663d"
   }
 }

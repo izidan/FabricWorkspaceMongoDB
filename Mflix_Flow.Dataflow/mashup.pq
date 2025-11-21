@@ -1,4 +1,4 @@
-[StagingDefinition = [Kind = "FastCopy"]]
+[DefaultOutputDestinationSettings = [DestinationDefinition = [Kind = "Reference", QueryName = "DefaultDestination", IsNewTarget = true], UpdateMethod = [Kind = "Replace"], DestinationTypeSettings = [Kind = "Table"]], StagingDefinition = [Kind = "FastCopy"]]
 section Section1;
 [DataDestinations = {[Definition = [Kind = "Reference", QueryName = "movies_DataDestination", IsNewTarget = true], Settings = [Kind = "Automatic", TypeSettings = [Kind = "Table"]]]}]
 shared movies = let
@@ -46,13 +46,6 @@ shared theaters = let
   #"Removed columns" = Table.RemoveColumns(#"Changed column type", {"type", "coordinates"})
 in
   #"Removed columns";
-shared movies_DataDestination = let
-  Pattern = Lakehouse.Contents([HierarchicalNavigation = null, CreateNavigationProperties = false, EnableFolding = false]),
-  Navigation_1 = Pattern{[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data],
-  Navigation_2 = Navigation_1{[lakehouseId = "0c648672-dabb-48fb-9451-fb7d3bd859a2"]}[Data],
-  TableNavigation = Navigation_2{[Id = "movies_ratings", ItemKind = "Table"]}?[Data]?
-in
-  TableNavigation;
 shared theaters_DataDestination = let
   Pattern = Lakehouse.Contents([HierarchicalNavigation = null, CreateNavigationProperties = false, EnableFolding = false]),
   Navigation_1 = Pattern{[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data],
@@ -60,3 +53,11 @@ shared theaters_DataDestination = let
   TableNavigation = Navigation_2{[Id = "theatres", ItemKind = "Table"]}?[Data]?
 in
   TableNavigation;
+shared movies_DataDestination = let
+  Pattern = Lakehouse.Contents([HierarchicalNavigation = null, CreateNavigationProperties = false, EnableFolding = false]),
+  Navigation_1 = Pattern{[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data],
+  Navigation_2 = Navigation_1{[lakehouseId = "0c648672-dabb-48fb-9451-fb7d3bd859a2"]}[Data],
+  TableNavigation = Navigation_2{[Id = "movies_ratings", ItemKind = "Table"]}?[Data]?
+in
+  TableNavigation;
+shared DefaultDestination = Lakehouse.Contents([EnableFolding = false]){[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data]{[lakehouseId = "0c648672-dabb-48fb-9451-fb7d3bd859a2"]}[Data];

@@ -15,15 +15,21 @@
       "queryName": "theaters",
       "loadEnabled": false
     },
+    "theaters_DataDestination": {
+      "queryId": "10197a86-3adb-4633-acc0-1ee358208069",
+      "queryName": "theaters_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
     "movies_DataDestination": {
-      "queryId": "5f4aa9b1-77e6-47da-a4ab-99f57210a244",
+      "queryId": "862e52ce-30e5-4015-9b57-2ee5399f18c1",
       "queryName": "movies_DataDestination",
       "isHidden": true,
       "loadEnabled": false
     },
-    "theaters_DataDestination": {
-      "queryId": "e641ca5d-eeff-4a6e-97d4-f8b2b84a6a77",
-      "queryName": "theaters_DataDestination",
+    "DefaultDestination": {
+      "queryId": "fbcf598e-30e8-497c-ac57-8b31009743a4",
+      "queryName": "DefaultDestination",
       "isHidden": true,
       "loadEnabled": false
     }

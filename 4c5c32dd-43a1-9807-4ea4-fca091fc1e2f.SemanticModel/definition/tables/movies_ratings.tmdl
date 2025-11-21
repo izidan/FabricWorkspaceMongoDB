@@ -1,0 +1,378 @@
+table movies_ratings
+	lineageTag: c889a045-9937-4151-9a11-b4b4ddff6abb
+	sourceLineageTag: [dbo].[movies_ratings]
+
+	column _id
+		dataType: string
+		lineageTag: a1c117bc-a24a-4c1f-94d1-95bbede1ca40
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column plot
+		dataType: string
+		lineageTag: 8a6af374-0f9c-476d-91cb-374a0aae359f
+		sourceLineageTag: plot
+		summarizeBy: none
+		sourceColumn: plot
+
+		annotation SummarizationSetBy = Automatic
+
+	column genres
+		dataType: string
+		lineageTag: b8338a5c-f461-4f48-9df2-80401ae80109
+		sourceLineageTag: genres
+		summarizeBy: none
+		sourceColumn: genres
+
+		annotation SummarizationSetBy = Automatic
+
+	column runtime
+		dataType: double
+		lineageTag: 8f8db379-3cb6-4343-a128-4f900aba0a34
+		sourceLineageTag: runtime
+		summarizeBy: sum
+		sourceColumn: runtime
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cast
+		dataType: string
+		lineageTag: 570c565d-e2f1-4ffe-bbd0-9a5a2e3178fa
+		sourceLineageTag: cast
+		summarizeBy: none
+		sourceColumn: cast
+
+		annotation SummarizationSetBy = Automatic
+
+	column poster
+		dataType: string
+		lineageTag: 9116ee03-98c0-4890-b8c3-6b76d960791e
+		sourceLineageTag: poster
+		summarizeBy: none
+		sourceColumn: poster
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 041c8a71-7eea-4c9e-a6c9-bc3675e89cc6
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column fullplot
+		dataType: string
+		lineageTag: e6eba464-1aeb-49b9-9828-fa7995d96067
+		sourceLineageTag: fullplot
+		summarizeBy: none
+		sourceColumn: fullplot
+
+		annotation SummarizationSetBy = Automatic
+
+	column languages
+		dataType: string
+		lineageTag: 168ed046-d5cb-4486-86cd-67af9d7d899b
+		sourceLineageTag: languages
+		summarizeBy: none
+		sourceColumn: languages
+
+		annotation SummarizationSetBy = Automatic
+
+	column released
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 9b1a80ed-e773-4847-9338-06fb1e7f5344
+		sourceLineageTag: released
+		summarizeBy: none
+		sourceColumn: released
+
+		annotation SummarizationSetBy = Automatic
+
+	column directors
+		dataType: string
+		lineageTag: 66222a32-6ddf-4a1d-a6a2-832fa586d49c
+		sourceLineageTag: directors
+		summarizeBy: none
+		sourceColumn: directors
+
+		annotation SummarizationSetBy = Automatic
+
+	column rated
+		dataType: string
+		lineageTag: 42c20066-0e5d-4b1e-8241-86d03fa71c6c
+		sourceLineageTag: rated
+		summarizeBy: none
+		sourceColumn: rated
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.wins'
+		dataType: int64
+		formatString: 0
+		lineageTag: a04ef4d8-7748-4406-81ef-e91945f7d450
+		sourceLineageTag: awards.wins
+		summarizeBy: sum
+		sourceColumn: awards.wins
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.nominations'
+		dataType: int64
+		formatString: 0
+		lineageTag: 310d6665-c1ed-49f1-abae-56f160b34f8e
+		sourceLineageTag: awards.nominations
+		summarizeBy: sum
+		sourceColumn: awards.nominations
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.text'
+		dataType: string
+		lineageTag: 743dc241-59ff-4e27-a79f-10967ef0ce08
+		sourceLineageTag: awards.text
+		summarizeBy: none
+		sourceColumn: awards.text
+
+		annotation SummarizationSetBy = Automatic
+
+	column lastupdated
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8416b8f8-1cc8-4276-99c5-aafce4abf357
+		sourceLineageTag: lastupdated
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: df132863-e4ce-4b16-93f3-fa5edb341140
+		sourceLineageTag: year
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'imdb.rating'
+		dataType: double
+		lineageTag: 94e71ca3-e472-47c6-9f11-feccf56610a5
+		sourceLineageTag: imdb.rating
+		summarizeBy: sum
+		sourceColumn: imdb.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'imdb.votes'
+		dataType: int64
+		formatString: 0
+		lineageTag: ea97b595-abc2-4e25-89c5-fa8a817cec16
+		sourceLineageTag: imdb.votes
+		summarizeBy: sum
+		sourceColumn: imdb.votes
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'imdb.id'
+		dataType: int64
+		formatString: 0
+		lineageTag: dc18993a-63dd-4e7d-a8e1-bb0b0d9b865a
+		sourceLineageTag: imdb.id
+		summarizeBy: sum
+		sourceColumn: imdb.id
+
+		annotation SummarizationSetBy = Automatic
+
+	column countries
+		dataType: string
+		lineageTag: 648f6ebc-2089-464c-bafd-925988b329b0
+		sourceLineageTag: countries
+		summarizeBy: none
+		sourceColumn: countries
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: fc47b65a-e9be-4042-ba6b-1cf273527262
+		sourceLineageTag: type
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.website'
+		dataType: string
+		lineageTag: 7da10a6a-2d41-46ed-8a95-b8c68791a8ae
+		sourceLineageTag: tomatoes.website
+		summarizeBy: none
+		sourceColumn: tomatoes.website
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.viewer.rating'
+		dataType: double
+		lineageTag: 81ef8458-c330-4801-bdd0-19499f04687b
+		sourceLineageTag: tomatoes.viewer.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'tomatoes.viewer.numReviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: d14c9c5c-b9d8-43f5-b35c-0c0bf7d100d8
+		sourceLineageTag: tomatoes.viewer.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.numReviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.viewer.meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a9dac6e-2c14-42e4-b32a-451e1dff865b
+		sourceLineageTag: tomatoes.viewer.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.meter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.dvd'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: d90a08fa-6ce3-4453-8bb9-353cfa7dee7e
+		sourceLineageTag: tomatoes.dvd
+		summarizeBy: none
+		sourceColumn: tomatoes.dvd
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.critic.rating'
+		dataType: double
+		lineageTag: 104187cb-faa4-44d7-befa-87c1188d9100
+		sourceLineageTag: tomatoes.critic.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'tomatoes.critic.numReviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: 671cf99e-cf16-4372-b58d-befc1c660ac7
+		sourceLineageTag: tomatoes.critic.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.numReviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.critic.meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 19a8c131-fd63-42fc-a371-920dc7e71da0
+		sourceLineageTag: tomatoes.critic.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.meter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.lastUpdated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: cd21013a-bf18-4926-8651-a70e817e68b2
+		sourceLineageTag: tomatoes.lastUpdated
+		summarizeBy: none
+		sourceColumn: tomatoes.lastUpdated
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.consensus'
+		dataType: string
+		lineageTag: 83deb359-5b3c-4f94-bb77-f7bbd45adefc
+		sourceLineageTag: tomatoes.consensus
+		summarizeBy: none
+		sourceColumn: tomatoes.consensus
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.rotten'
+		dataType: int64
+		formatString: 0
+		lineageTag: ec231a2e-2e4c-4078-8546-fd7b5fc06daa
+		sourceLineageTag: tomatoes.rotten
+		summarizeBy: sum
+		sourceColumn: tomatoes.rotten
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.production'
+		dataType: string
+		lineageTag: 07bae832-5297-4a59-b91d-69373a32df60
+		sourceLineageTag: tomatoes.production
+		summarizeBy: none
+		sourceColumn: tomatoes.production
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.fresh'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7958907c-ff7e-4f26-bfa2-84c2101ab3fe
+		sourceLineageTag: tomatoes.fresh
+		summarizeBy: sum
+		sourceColumn: tomatoes.fresh
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_mflix_comments
+		dataType: int64
+		formatString: 0
+		lineageTag: 94e0e290-204b-423a-a5ee-51106d9da4d5
+		sourceLineageTag: num_mflix_comments
+		summarizeBy: sum
+		sourceColumn: num_mflix_comments
+
+		annotation SummarizationSetBy = Automatic
+
+	column writers
+		dataType: string
+		lineageTag: d1475cd9-9c02-42c5-8bfb-2a013d14a4f0
+		sourceLineageTag: writers
+		summarizeBy: none
+		sourceColumn: writers
+
+		annotation SummarizationSetBy = Automatic
+
+	column metacritic
+		dataType: double
+		lineageTag: b5a57cda-b2a6-4749-9fcc-8fee2c144984
+		sourceLineageTag: metacritic
+		summarizeBy: sum
+		sourceColumn: metacritic
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition movies_ratings = entity
+		mode: directLake
+		source
+			entityName: movies_ratings
+			expressionSource: 'DirectLake - Mflix_Lake'
+

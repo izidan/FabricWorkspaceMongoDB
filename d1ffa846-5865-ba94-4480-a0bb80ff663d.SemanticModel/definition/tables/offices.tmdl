@@ -1,0 +1,104 @@
+table offices
+	lineageTag: a05fc8fe-f4be-4a68-aa1a-d66969f9f567
+	sourceLineageTag: [dbo].[offices]
+
+	column _id
+		dataType: string
+		lineageTag: 5d755f67-dc84-4bda-b4b7-0d0514aa752f
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 8b888cc2-86b3-4385-942a-c27ba87776ed
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column address1
+		dataType: string
+		lineageTag: db6dce52-d1dc-41b6-ba09-a03d85cd3c40
+		sourceLineageTag: address1
+		summarizeBy: none
+		sourceColumn: address1
+
+		annotation SummarizationSetBy = Automatic
+
+	column address2
+		dataType: string
+		lineageTag: 832da998-cc62-497c-8b3d-9989aa3ea534
+		sourceLineageTag: address2
+		summarizeBy: none
+		sourceColumn: address2
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip_code
+		dataType: string
+		lineageTag: cdd9154d-e668-4f0b-a4fd-4b52f2570819
+		sourceLineageTag: zip_code
+		summarizeBy: none
+		sourceColumn: zip_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 6b230168-78df-41fa-8487-94fddd575e9a
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state_code
+		dataType: string
+		lineageTag: e4251dd1-8936-47ef-af81-6ce4e8230e3c
+		sourceLineageTag: state_code
+		summarizeBy: none
+		sourceColumn: state_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_code
+		dataType: string
+		lineageTag: 4372e5c0-a004-4e6c-8a05-1ccfced0d2af
+		sourceLineageTag: country_code
+		summarizeBy: none
+		sourceColumn: country_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: e504bff7-6e71-4d3e-8350-7529c758329c
+		sourceLineageTag: latitude
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 31cb5a21-f0e8-47c5-8c87-3c4a4f6bdf01
+		sourceLineageTag: longitude
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition offices = entity
+		mode: directLake
+		source
+			entityName: offices
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

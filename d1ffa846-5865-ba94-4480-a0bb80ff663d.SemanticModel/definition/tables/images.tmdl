@@ -1,0 +1,28 @@
+table images
+	lineageTag: d982e469-26e2-480c-84f7-32fad3faddb2
+	sourceLineageTag: [dbo].[images]
+
+	column _id
+		dataType: string
+		lineageTag: 935758d4-bbe5-43ce-8b24-516533166a47
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'image.url'
+		dataType: string
+		lineageTag: 319e409b-3d34-4f49-bf65-0637a41b217d
+		sourceLineageTag: image.url
+		summarizeBy: none
+		sourceColumn: image.url
+
+		annotation SummarizationSetBy = Automatic
+
+	partition images = entity
+		mode: directLake
+		source
+			entityName: images
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

@@ -1,0 +1,37 @@
+table links
+	lineageTag: c5156f35-0818-464b-9b65-7a186701ef1e
+	sourceLineageTag: [dbo].[links]
+
+	column _id
+		dataType: string
+		lineageTag: 50d3083b-c590-4340-b763-ac730b0a7702
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column external_url
+		dataType: string
+		lineageTag: 5abe2b12-3893-4078-841a-239e680faa9b
+		sourceLineageTag: external_url
+		summarizeBy: none
+		sourceColumn: external_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 3ec8ee94-e2d8-4258-b930-ccd09b03841a
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	partition links = entity
+		mode: directLake
+		source
+			entityName: links
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

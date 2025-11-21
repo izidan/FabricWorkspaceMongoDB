@@ -1,0 +1,56 @@
+table relationships
+	lineageTag: a8dc25d1-27d9-4482-8c1e-045c90ecbcc7
+	sourceLineageTag: [dbo].[relationships]
+
+	column _id
+		dataType: string
+		lineageTag: 84603a80-32a7-4454-ba5f-94d41d863231
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_past
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a4af1888-1f24-4423-bece-d65abf9deb7b
+		sourceLineageTag: is_past
+		summarizeBy: none
+		sourceColumn: is_past
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 2bb8054a-e75b-461b-9479-bf2f7126dc79
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: f1ba0206-6bab-44e6-a6c0-ddfc0016fbf5
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: ba9050b1-437e-463d-b001-5bdd2017222c
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition relationships = entity
+		mode: directLake
+		source
+			entityName: relationships
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

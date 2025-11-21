@@ -1,0 +1,65 @@
+table comments
+	lineageTag: 6861c812-155d-4cf6-b786-69997fdd8bbd
+	sourceLineageTag: [dbo].[comments]
+
+	column _id
+		dataType: string
+		lineageTag: 1a8deff1-94f2-4df4-a2ae-3d665ea41e1e
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 3f186d7e-1958-4380-ba48-d52222c14f42
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: 6602940d-61f0-46d8-aff0-7adf5aee70b7
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column movie_id
+		dataType: string
+		lineageTag: 01ed32f0-773b-42f4-80d3-f8b9fd1e0e64
+		sourceLineageTag: movie_id
+		summarizeBy: none
+		sourceColumn: movie_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column text
+		dataType: string
+		lineageTag: 18c095ba-8fa1-4970-b41f-232bc57ff4a5
+		sourceLineageTag: text
+		summarizeBy: none
+		sourceColumn: text
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 9beda198-5103-4e1c-8bb1-d761a1dcc4ac
+		sourceLineageTag: date
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	partition comments = entity
+		mode: directLake
+		source
+			entityName: comments
+			expressionSource: 'DirectLake - Mflix_Lake'
+

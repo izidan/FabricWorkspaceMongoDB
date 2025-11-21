@@ -1,0 +1,56 @@
+table providerships
+	lineageTag: 5580a9c1-bf24-424d-a81e-859b6bac549a
+	sourceLineageTag: [dbo].[providerships]
+
+	column _id
+		dataType: string
+		lineageTag: 19ebfac9-9c09-4077-9b7c-bd8035166f5a
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 814c235c-e995-4c34-953c-c2e892e5e617
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_past
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3e7f90b0-a9be-46a4-9226-9578a9fa13c9
+		sourceLineageTag: is_past
+		summarizeBy: none
+		sourceColumn: is_past
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 4fe9a4c4-1114-4672-b765-e208e38900ad
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: c38074c9-008b-4081-b821-67dc42151fed
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	partition providerships = entity
+		mode: directLake
+		source
+			entityName: providerships
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

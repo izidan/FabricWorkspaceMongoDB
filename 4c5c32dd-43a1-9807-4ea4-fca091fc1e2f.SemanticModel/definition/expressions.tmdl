@@ -1,0 +1,11 @@
+expression 'DirectLake - Mflix_Lake' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/2e558e5c-dad3-4673-8242-c21e57e63da5/0c648672-dabb-48fb-9451-fb7d3bd859a2", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: bcc1f688-ab8e-4843-b480-b26135bf549d
+
+	annotation PBI_IncludeFutureArtifacts = False
+
+	annotation PBI_RemovedChildren = [{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[theaters]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[movies]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[users]"}},"objectType":"Table"}]
+

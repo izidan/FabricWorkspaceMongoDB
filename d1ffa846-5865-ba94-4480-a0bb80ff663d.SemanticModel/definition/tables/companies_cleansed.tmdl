@@ -1,0 +1,311 @@
+table companies_cleansed
+	lineageTag: 30c631a1-2764-4476-9769-6efde69fd1cb
+	sourceLineageTag: [dbo].[companies_cleansed]
+
+	column _id
+		dataType: string
+		lineageTag: 07b0b877-de9e-43aa-8f9f-5c7367ea18ef
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: a85e65a3-05ab-4017-acbd-ab3871a1a118
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: 653fd711-765a-421b-bb3c-a75b5d0f6108
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	column crunchbase_url
+		dataType: string
+		lineageTag: 80ab03dd-c7d1-4d9e-898c-96f9e3af7b6d
+		sourceLineageTag: crunchbase_url
+		summarizeBy: none
+		sourceColumn: crunchbase_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column homepage_url
+		dataType: string
+		lineageTag: 7fbf02b0-ff19-4d78-9619-aea79fdc58e6
+		sourceLineageTag: homepage_url
+		summarizeBy: none
+		sourceColumn: homepage_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column blog_url
+		dataType: string
+		lineageTag: a6d865d2-3ab4-4ac8-8fa7-f37bc1781005
+		sourceLineageTag: blog_url
+		summarizeBy: none
+		sourceColumn: blog_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column blog_feed_url
+		dataType: string
+		lineageTag: cd905cc9-97b8-4f17-9518-d5e846083590
+		sourceLineageTag: blog_feed_url
+		summarizeBy: none
+		sourceColumn: blog_feed_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column twitter_username
+		dataType: string
+		lineageTag: d92e9a65-2b7f-4b95-8776-f42f2b65feef
+		sourceLineageTag: twitter_username
+		summarizeBy: none
+		sourceColumn: twitter_username
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_code
+		dataType: string
+		lineageTag: 5d57422e-b60e-4b82-a222-5c8d6aefa225
+		sourceLineageTag: category_code
+		summarizeBy: none
+		sourceColumn: category_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column number_of_employees
+		dataType: int64
+		formatString: 0
+		lineageTag: 844054b9-335d-4a68-b54e-017ca7571f44
+		sourceLineageTag: number_of_employees
+		summarizeBy: sum
+		sourceColumn: number_of_employees
+
+		annotation SummarizationSetBy = Automatic
+
+	column founded_year
+		dataType: int64
+		formatString: 0
+		lineageTag: f05b798c-e8c2-4d90-ad24-ccee1dfb4955
+		sourceLineageTag: founded_year
+		summarizeBy: sum
+		sourceColumn: founded_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column founded_month
+		dataType: int64
+		formatString: 0
+		lineageTag: e7fc5ad5-0536-4c06-86b6-c1505eeaf3df
+		sourceLineageTag: founded_month
+		summarizeBy: sum
+		sourceColumn: founded_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column founded_day
+		dataType: int64
+		formatString: 0
+		lineageTag: eb795dcc-6231-4ccb-bf2a-d5fbd122c1f3
+		sourceLineageTag: founded_day
+		summarizeBy: sum
+		sourceColumn: founded_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column deadpooled_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 5254c5a0-5847-4491-a778-3f9b422113e1
+		sourceLineageTag: deadpooled_year
+		summarizeBy: sum
+		sourceColumn: deadpooled_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column tag_list
+		dataType: string
+		lineageTag: 37b551d7-3bf4-4add-be01-1be03f25cf72
+		sourceLineageTag: tag_list
+		summarizeBy: none
+		sourceColumn: tag_list
+
+		annotation SummarizationSetBy = Automatic
+
+	column alias_list
+		dataType: string
+		lineageTag: 52020ed7-cdb5-421f-a2e5-e964653f8da2
+		sourceLineageTag: alias_list
+		summarizeBy: none
+		sourceColumn: alias_list
+
+		annotation SummarizationSetBy = Automatic
+
+	column email_address
+		dataType: string
+		lineageTag: d7c82cc9-779b-41df-a32f-27dd9e029440
+		sourceLineageTag: email_address
+		summarizeBy: none
+		sourceColumn: email_address
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone_number
+		dataType: string
+		lineageTag: 1521bbe0-e173-40c6-a91f-fcbe00b7f87e
+		sourceLineageTag: phone_number
+		summarizeBy: none
+		sourceColumn: phone_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: e3f821a6-65d3-4660-9036-6e1e371155cb
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c255668b-ddf3-4099-804a-c2b7426739e4
+		sourceLineageTag: created_at
+		summarizeBy: none
+		sourceColumn: created_at
+
+		annotation SummarizationSetBy = Automatic
+
+	column updated_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8fc59cd9-8186-4d64-8473-95b65a6c2719
+		sourceLineageTag: updated_at
+		summarizeBy: none
+		sourceColumn: updated_at
+
+		annotation SummarizationSetBy = Automatic
+
+	column overview
+		dataType: string
+		lineageTag: 6c458ddc-0330-403d-b597-95433af9aa17
+		sourceLineageTag: overview
+		summarizeBy: none
+		sourceColumn: overview
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_money_raised
+		dataType: string
+		lineageTag: e58a0694-996c-4b8a-a609-217f153fe25a
+		sourceLineageTag: total_money_raised
+		summarizeBy: none
+		sourceColumn: total_money_raised
+
+		annotation SummarizationSetBy = Automatic
+
+	column deadpooled_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 26a769c8-395a-4fae-a464-2bd21411b0ac
+		sourceLineageTag: deadpooled_month
+		summarizeBy: sum
+		sourceColumn: deadpooled_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column deadpooled_day
+		dataType: int64
+		formatString: 0
+		lineageTag: 14d57b12-e6b2-4ed3-b16d-b4a3e6347301
+		sourceLineageTag: deadpooled_day
+		summarizeBy: sum
+		sourceColumn: deadpooled_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column deadpooled_url
+		dataType: string
+		lineageTag: a11eab03-4272-469b-87ec-47ca65263dc4
+		sourceLineageTag: deadpooled_url
+		summarizeBy: none
+		sourceColumn: deadpooled_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.valuation_amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: a7a84c78-af18-443f-851d-3d829875eae0
+		sourceLineageTag: ipo.valuation_amount
+		summarizeBy: sum
+		sourceColumn: ipo.valuation_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.valuation_currency_code'
+		dataType: string
+		lineageTag: 1b1b1410-f38a-45e1-8e78-45eba424901f
+		sourceLineageTag: ipo.valuation_currency_code
+		summarizeBy: none
+		sourceColumn: ipo.valuation_currency_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.pub_year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 590d572c-6afc-4ca7-9ca2-5fe11849d558
+		sourceLineageTag: ipo.pub_year
+		summarizeBy: sum
+		sourceColumn: ipo.pub_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.pub_month'
+		dataType: int64
+		formatString: 0
+		lineageTag: be25b136-2da5-4042-b6f2-b0f063336278
+		sourceLineageTag: ipo.pub_month
+		summarizeBy: sum
+		sourceColumn: ipo.pub_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.pub_day'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f59d8b0-3be8-4375-9e92-80764d88f1c2
+		sourceLineageTag: ipo.pub_day
+		summarizeBy: sum
+		sourceColumn: ipo.pub_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ipo.stock_symbol'
+		dataType: string
+		lineageTag: 9bde9449-3c5c-4784-876c-f521bc8384d6
+		sourceLineageTag: ipo.stock_symbol
+		summarizeBy: none
+		sourceColumn: ipo.stock_symbol
+
+		annotation SummarizationSetBy = Automatic
+
+	partition companies_cleansed = entity
+		mode: directLake
+		source
+			entityName: companies_cleansed
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

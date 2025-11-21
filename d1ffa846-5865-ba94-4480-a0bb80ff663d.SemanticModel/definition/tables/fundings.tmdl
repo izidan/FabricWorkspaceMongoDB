@@ -1,0 +1,113 @@
+table fundings
+	lineageTag: 56c71261-a92b-4546-9155-c8f9556f116a
+	sourceLineageTag: [dbo].[fundings]
+
+	column _id
+		dataType: string
+		lineageTag: 5e4f6272-c574-4593-88d4-ef2e7a144e19
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column id
+		dataType: string
+		lineageTag: 03848a57-6729-4c7e-a7c6-f964f3689139
+		sourceLineageTag: id
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column round_code
+		dataType: string
+		lineageTag: c0887874-fc5b-4bf0-ace2-981164246453
+		sourceLineageTag: round_code
+		summarizeBy: none
+		sourceColumn: round_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_url
+		dataType: string
+		lineageTag: c7214f25-d29d-4d85-985a-e50c702cebb4
+		sourceLineageTag: source_url
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_description
+		dataType: string
+		lineageTag: 62b2908e-a3fd-45bf-9d15-aed80cbc71dc
+		sourceLineageTag: source_description
+		summarizeBy: none
+		sourceColumn: source_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column raised_amount
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b39d963-c354-4d84-bf69-79b49add48d6
+		sourceLineageTag: raised_amount
+		summarizeBy: sum
+		sourceColumn: raised_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column raised_currency_code
+		dataType: string
+		lineageTag: 6cb3f6e5-d506-4863-8727-52618e4ebdcf
+		sourceLineageTag: raised_currency_code
+		summarizeBy: none
+		sourceColumn: raised_currency_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column funded_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 9224489e-3a44-4ddb-9e3f-ebfafa5eeba9
+		sourceLineageTag: funded_year
+		summarizeBy: sum
+		sourceColumn: funded_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column funded_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b10c781-50af-4f1f-92d7-fda82f11531c
+		sourceLineageTag: funded_month
+		summarizeBy: sum
+		sourceColumn: funded_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column funded_day
+		dataType: int64
+		formatString: 0
+		lineageTag: 05315ad7-4e6b-49b0-b5a3-51ec804830ab
+		sourceLineageTag: funded_day
+		summarizeBy: sum
+		sourceColumn: funded_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column funding_id
+		dataType: string
+		lineageTag: ce082085-c32e-446a-9ef8-b430a1eb66ff
+		sourceLineageTag: funding_id
+		summarizeBy: none
+		sourceColumn: funding_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fundings = entity
+		mode: directLake
+		source
+			entityName: fundings
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

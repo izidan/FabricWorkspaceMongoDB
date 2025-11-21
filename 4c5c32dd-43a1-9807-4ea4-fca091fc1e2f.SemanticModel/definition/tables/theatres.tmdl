@@ -1,0 +1,96 @@
+table theatres
+	lineageTag: c8cd4160-636b-4ed0-975b-1a8bd811bc18
+	sourceLineageTag: [dbo].[theatres]
+
+	column _id
+		dataType: string
+		lineageTag: 9d65f2b2-5ad3-4ee5-8ed3-52bee64b6291
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column theaterId
+		dataType: int64
+		formatString: 0
+		lineageTag: 187410ef-9817-4784-a5db-1104720418f5
+		sourceLineageTag: theaterId
+		summarizeBy: count
+		sourceColumn: theaterId
+
+		annotation SummarizationSetBy = Automatic
+
+	column street1
+		dataType: string
+		lineageTag: 29fa45de-d4e6-44d5-83a5-b361ba913bde
+		sourceLineageTag: street1
+		summarizeBy: none
+		sourceColumn: street1
+
+		annotation SummarizationSetBy = Automatic
+
+	column street2
+		dataType: string
+		lineageTag: fa9f33e3-ba77-4ffa-be53-8536c1d3e075
+		sourceLineageTag: street2
+		summarizeBy: none
+		sourceColumn: street2
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: b2abaad7-d4f7-4352-9ab3-ba7e3f1c2f8d
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: c2ce6bf4-0286-4a68-a872-4f714186622d
+		sourceLineageTag: state
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column zipcode
+		dataType: string
+		lineageTag: 40d9b247-4704-4a59-b2a8-03f11e21375c
+		sourceLineageTag: zipcode
+		summarizeBy: none
+		sourceColumn: zipcode
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: ea790ef3-fc98-4f9a-94df-606ecb105dbc
+		sourceLineageTag: latitude
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 361f9966-7216-4bd8-af8f-b4b18bdbe940
+		sourceLineageTag: longitude
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition theatres = entity
+		mode: directLake
+		source
+			entityName: theatres
+			expressionSource: 'DirectLake - Mflix_Lake'
+
