@@ -1,6 +1,6 @@
 table companies
 	lineageTag: 561fa8c0-ea9b-4733-b2e6-137036db6c1e
-	sourceLineageTag: [dbo].[companies_cleansed]
+	sourceLineageTag: [dbo].[companies]
 
 	column _id
 		dataType: string
