@@ -1,0 +1,153 @@
+table milestones
+	lineageTag: acf8f137-7e79-488e-948a-d598505423ef
+	sourceLineageTag: [dbo].[milestones]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: bfface8d-4acf-4538-a771-bbe65c4c5085
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3a1b087b-68a0-4802-9832-307946daccae
+		sourceLineageTag: id
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 3f447f60-e014-454f-a65a-3b43f12cd97d
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 1dcba236-082c-444b-b69b-fec94c4a486a
+		sourceLineageTag: stoned_year
+		summarizeBy: sum
+		sourceColumn: stoned_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d069a91-97b7-4748-a4da-7b0b246c3a58
+		sourceLineageTag: stoned_month
+		summarizeBy: sum
+		sourceColumn: stoned_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_day
+		dataType: int64
+		formatString: 0
+		lineageTag: 5b127313-a2da-4f04-978c-70e368c00c4e
+		sourceLineageTag: stoned_day
+		summarizeBy: sum
+		sourceColumn: stoned_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_url
+		dataType: string
+		lineageTag: c817f1df-298b-4535-bbdb-eb880bc4451d
+		sourceLineageTag: source_url
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_text
+		dataType: string
+		lineageTag: 3a182dd2-3a79-4a49-9a37-d07cd0587b4f
+		sourceLineageTag: source_text
+		summarizeBy: none
+		sourceColumn: source_text
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_description
+		dataType: string
+		lineageTag: ac0e314a-d601-4482-b572-b04d9cb4bbdd
+		sourceLineageTag: source_description
+		summarizeBy: none
+		sourceColumn: source_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoneable_type
+		dataType: string
+		lineageTag: e2484dbc-ef6b-43cf-a993-86bacd4bfa5f
+		sourceLineageTag: stoneable_type
+		summarizeBy: none
+		sourceColumn: stoneable_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_value
+		dataType: string
+		lineageTag: 50fe64a9-0ed1-4d8d-9fdc-f3dffa882b50
+		sourceLineageTag: stoned_value
+		summarizeBy: none
+		sourceColumn: stoned_value
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_value_type
+		dataType: string
+		lineageTag: 3d9389c1-117d-47e6-a48d-4057e54c8275
+		sourceLineageTag: stoned_value_type
+		summarizeBy: none
+		sourceColumn: stoned_value_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column stoned_acquirer
+		dataType: string
+		lineageTag: f19c97b6-ab57-4081-9069-4846c2b7a8ba
+		sourceLineageTag: stoned_acquirer
+		summarizeBy: none
+		sourceColumn: stoned_acquirer
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: db06149a-b19e-4a26-811b-57433e39c4e7
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: ae59a3e1-dd17-4cab-94ac-1ee302667a33
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	partition milestones = entity
+		mode: directLake
+		source
+			entityName: milestones
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

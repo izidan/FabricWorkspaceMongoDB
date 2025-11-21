@@ -1,0 +1,589 @@
+/// Movies full details including awards and multiple ratings
+table 'Movies Ratings'
+	lineageTag: 28f6e314-4444-487f-b99c-430cf2e5549f
+	sourceLineageTag: [dbo].[movies_ratings]
+
+	column _id
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: 4c842711-b045-4683-9ac4-18ee41408f77
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Short description of the movie plot
+	column Plot
+		dataType: string
+		lineageTag: 3b38070b-cacd-404f-bc2b-adf4da2604f0
+		sourceLineageTag: plot
+		summarizeBy: none
+		sourceColumn: plot
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Comma separated list of all genres the movie is categorised in
+	column Genres
+		dataType: string
+		lineageTag: fdf17f8a-f329-48e1-a96b-4fa030a37a08
+		sourceLineageTag: genres
+		summarizeBy: none
+		sourceColumn: genres
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie runtime in minutes
+	column Runtime
+		dataType: double
+		lineageTag: a2dcef75-90a5-453a-a2e1-f3c3a32baab7
+		sourceLineageTag: runtime
+		summarizeBy: none
+		sourceColumn: runtime
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Comma separated list of the main casting actors 
+	column Cast
+		dataType: string
+		lineageTag: cec75451-d928-4a67-bffe-86ceea9e899e
+		sourceLineageTag: cast
+		summarizeBy: none
+		sourceColumn: cast
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Image link to the movie poster
+	column Poster
+		dataType: string
+		lineageTag: d0e10e9b-8205-4928-87b9-de412e473c2e
+		sourceLineageTag: poster
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: poster
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The main title of the movie
+	column Title
+		dataType: string
+		lineageTag: ad8216f8-4444-44df-819b-4d878ad2cda7
+		sourceLineageTag: title
+		isDefaultLabel
+		summarizeBy: none
+		sourceColumn: title
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Full description of the movie plot
+	column 'Full Plot'
+		dataType: string
+		lineageTag: 83a00cc5-cb53-44e4-a4fa-ddc6c9577bfc
+		sourceLineageTag: fullplot
+		summarizeBy: none
+		sourceColumn: fullplot
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Comma separated list of the languages the movie is translated into
+	column Languages
+		dataType: string
+		lineageTag: 3e2c34d5-ea40-4abb-9b30-c51634ab189d
+		sourceLineageTag: languages
+		summarizeBy: none
+		sourceColumn: languages
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The day the movie was released
+	column Released
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a7c73d27-93c7-4af9-9f60-3d931692b158
+		sourceLineageTag: released
+		summarizeBy: none
+		sourceColumn: released
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	/// Comma separated list of the movie directors
+	column Directors
+		dataType: string
+		lineageTag: 9d52d851-6ff5-44e7-b4f7-d5ab76010ce3
+		sourceLineageTag: directors
+		summarizeBy: none
+		sourceColumn: directors
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie age rating and classification
+	column Rated
+		dataType: string
+		lineageTag: 0b5b55fe-8b58-4922-8822-5bbda4e4c134
+		sourceLineageTag: rated
+		summarizeBy: none
+		sourceColumn: rated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The number of awards won
+	column 'Awards Wins'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c383b77-9bdf-466e-a553-c450961b0e31
+		sourceLineageTag: awards.wins
+		summarizeBy: none
+		sourceColumn: awards.wins
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The number of awards nominated for
+	column 'Awards Nominations'
+		dataType: int64
+		formatString: 0
+		lineageTag: ce37571e-dfee-4278-aeed-2be1a92f396c
+		sourceLineageTag: awards.nominations
+		summarizeBy: none
+		sourceColumn: awards.nominations
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The description of awards nominated for and/or won
+	column Awards
+		dataType: string
+		lineageTag: c7c1a83e-9e00-4b71-8f04-d634b5888782
+		sourceLineageTag: awards.text
+		summarizeBy: none
+		sourceColumn: awards.text
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The time stamp of the last update of the movie details
+	column 'Last Updated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 48ac16d1-e16e-4296-b46a-9830d2d61739
+		sourceLineageTag: lastupdated
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The year the movie was released
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 357dd7f0-4d14-4c26-a78d-267733a0792e
+		sourceLineageTag: year
+		summarizeBy: none
+		sourceColumn: year
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie IMDb rating
+	column 'IMDb Rating'
+		dataType: double
+		lineageTag: 9bf1b925-1112-4e9c-a71b-6f005e230181
+		sourceLineageTag: imdb.rating
+		summarizeBy: none
+		sourceColumn: imdb.rating
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of votes on IMDb site
+	column 'IMDb Votes'
+		dataType: int64
+		formatString: 0
+		lineageTag: a827af23-658a-4806-bbf8-9510439bc509
+		sourceLineageTag: imdb.votes
+		summarizeBy: none
+		sourceColumn: imdb.votes
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie unique identifier in IMDb database
+	column 'IMDb ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2cfe759f-711c-4009-b948-bea9052fa61b
+		sourceLineageTag: imdb.id
+		summarizeBy: none
+		sourceColumn: imdb.id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Comma separated list of the countries the movie was distributed at
+	column Countries
+		dataType: string
+		lineageTag: d01fe24b-7031-41af-8e67-abd4929052dd
+		sourceLineageTag: countries
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: countries
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The type of the title, either movie or series
+	column Type
+		dataType: string
+		lineageTag: f9e876f7-bea8-487d-b6ff-bb7c18adf287
+		sourceLineageTag: type
+		summarizeBy: none
+		sourceColumn: type
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie website as per Tomatoes site
+	column 'Tomatoes Website'
+		dataType: string
+		lineageTag: a3479fe5-1c5b-4610-849d-431f9cff3573
+		sourceLineageTag: tomatoes.website
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: tomatoes.website
+
+		changedProperty = DataCategory
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie rating by Tomatoes viewers
+	column 'Tomatoes Viewer Rating'
+		dataType: double
+		lineageTag: e07649b5-0e32-4393-a548-b757aa3dbe23
+		sourceLineageTag: tomatoes.viewer.rating
+		summarizeBy: none
+		sourceColumn: tomatoes.viewer.rating
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of reviews by Tomatoes viewers
+	column 'Tomatoes Viewer Reviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0d3c95d6-9b03-4b0c-9a43-825d5f80a2a4
+		sourceLineageTag: tomatoes.viewer.numReviews
+		summarizeBy: none
+		sourceColumn: tomatoes.viewer.numReviews
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// An indicator of the movie activity by Tomatoes viewers
+	column 'Tomatoes Viewer Meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 70eac17b-5a3a-4d5c-874e-19c645395c47
+		sourceLineageTag: tomatoes.viewer.meter
+		summarizeBy: none
+		sourceColumn: tomatoes.viewer.meter
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The year the movies DVD was released as per Tomatoes site
+	column 'Tomatoes DVD'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: eb580e46-f482-4bfb-9bec-1cbc970c0d7d
+		sourceLineageTag: tomatoes.dvd
+		summarizeBy: none
+		sourceColumn: tomatoes.dvd
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movie rating by Tomatoes critics
+	column 'Tomatoes Critic Rating'
+		dataType: double
+		lineageTag: a80a3570-5650-4f61-9ab7-1bfb2d924554
+		sourceLineageTag: tomatoes.critic.rating
+		summarizeBy: none
+		sourceColumn: tomatoes.critic.rating
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of reviews by Tomatoes critics
+	column 'Tomatoes Critic Reviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: 209211ad-deaf-470e-861d-4c3cc37c7df3
+		sourceLineageTag: tomatoes.critic.numReviews
+		summarizeBy: none
+		sourceColumn: tomatoes.critic.numReviews
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// An indicator of the movie activity by Tomatoes critics
+	column 'Tomatoes Critic Meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: c6b669c9-dd3a-49e5-b018-44a96cf86590
+		sourceLineageTag: tomatoes.critic.meter
+		summarizeBy: none
+		sourceColumn: tomatoes.critic.meter
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The time stamp of the movie ratings was last updated from Tomatoes site
+	column 'Tomatoes Last Updated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5d96d23c-dbf7-4680-8962-4758aa70332c
+		sourceLineageTag: tomatoes.lastUpdated
+		summarizeBy: none
+		sourceColumn: tomatoes.lastUpdated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// General viewers consensus as per Tomatoes site
+	column 'Tomatoes Consensus'
+		dataType: string
+		lineageTag: c8e6b5a6-f977-4d8d-9f5e-5f4810acd91d
+		sourceLineageTag: tomatoes.consensus
+		summarizeBy: none
+		sourceColumn: tomatoes.consensus
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tomatoes indicator for movies achieved below 60% of ratings indicating negative rating
+	column 'Tomatoes Rotten'
+		dataType: int64
+		formatString: 0
+		lineageTag: e8228aad-bc90-4607-9a0b-050c0b13641e
+		sourceLineageTag: tomatoes.rotten
+		summarizeBy: none
+		sourceColumn: tomatoes.rotten
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The movies producers or production house as per Tomatoes site
+	column 'Tomatoes Production'
+		dataType: string
+		lineageTag: a7a35a76-74d9-4786-9d32-8f35344641c1
+		sourceLineageTag: tomatoes.production
+		summarizeBy: none
+		sourceColumn: tomatoes.production
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tomatoes indicator for movies achieved above 60% of ratings indicating positive rating
+	column 'Tomatoes Fresh'
+		dataType: int64
+		formatString: 0
+		lineageTag: faf5d758-7600-42c1-b9b2-2c4b2b143558
+		sourceLineageTag: tomatoes.fresh
+		summarizeBy: none
+		sourceColumn: tomatoes.fresh
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The number of comments on the movie
+	column 'Total Comments'
+		dataType: int64
+		formatString: 0
+		lineageTag: dfe069d0-530f-4a96-a4b3-d0a441d289b9
+		sourceLineageTag: num_mflix_comments
+		summarizeBy: none
+		sourceColumn: num_mflix_comments
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Comma separated list of the movie writers
+	column Writers
+		dataType: string
+		lineageTag: 1aec4e80-cbd7-46d9-93ad-957ce498e776
+		sourceLineageTag: writers
+		summarizeBy: none
+		sourceColumn: writers
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Metacritic score of the movie
+	column Metacritic
+		dataType: double
+		lineageTag: ab9350a9-17a0-41a0-923c-bcba5691916a
+		sourceLineageTag: metacritic
+		summarizeBy: none
+		sourceColumn: metacritic
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Movies Ratings' = entity
+		mode: directLake
+		source
+			entityName: movies_ratings
+			schemaName: dbo
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

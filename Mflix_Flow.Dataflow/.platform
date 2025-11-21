@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Mflix_Flow",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f9fa24ff-a0fa-8091-4b64-a8da281ae7b1"
+  }
+}

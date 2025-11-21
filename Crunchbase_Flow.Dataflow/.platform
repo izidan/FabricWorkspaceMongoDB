@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Crunchbase_Flow",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1903126a-cec1-87f0-442d-4532251c6c2d"
+  }
+}

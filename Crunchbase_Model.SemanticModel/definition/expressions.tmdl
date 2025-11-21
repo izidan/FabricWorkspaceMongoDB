@@ -1,0 +1,9 @@
+expression 'DirectLake - Crunchbase_Lake' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/2e558e5c-dad3-4673-8242-c21e57e63da5/6caf49dc-7f9b-4170-8a0c-2bb1bd1fdca9", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: 00cf1403-e334-4717-8554-e27e646dfc6e
+
+	annotation PBI_IncludeFutureArtifacts = False
+

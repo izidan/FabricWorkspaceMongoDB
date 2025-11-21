@@ -1,0 +1,117 @@
+table acquisitions
+	lineageTag: 8fb88336-8709-42f3-9f37-97494d2ed71b
+	sourceLineageTag: [dbo].[acquisitions]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 558f58c9-4a49-4b3d-a142-9aaa7e3a78da
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column price_amount
+		dataType: int64
+		formatString: 0
+		lineageTag: 33ba0080-b0e8-45b5-919b-1cc632b554ab
+		sourceLineageTag: price_amount
+		summarizeBy: sum
+		sourceColumn: price_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column price_currency_code
+		dataType: string
+		lineageTag: 0113809d-290a-44f1-87ac-6cdeaeaa599d
+		sourceLineageTag: price_currency_code
+		summarizeBy: none
+		sourceColumn: price_currency_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column term_code
+		dataType: string
+		lineageTag: d9faf7ad-1e0f-4e5c-b93d-5f11af904af9
+		sourceLineageTag: term_code
+		summarizeBy: none
+		sourceColumn: term_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_url
+		dataType: string
+		lineageTag: de5d6c63-2407-42c5-b512-800ef3b2a354
+		sourceLineageTag: source_url
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_description
+		dataType: string
+		lineageTag: 0ed142ad-82d9-4746-8f18-b21dbd652d20
+		sourceLineageTag: source_description
+		summarizeBy: none
+		sourceColumn: source_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquired_year
+		dataType: int64
+		formatString: 0
+		lineageTag: c189f09e-2098-41a6-a72a-fc8b8bf1f7d5
+		sourceLineageTag: acquired_year
+		summarizeBy: sum
+		sourceColumn: acquired_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquired_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 11d8917f-8814-426f-9aeb-350e4440c4d8
+		sourceLineageTag: acquired_month
+		summarizeBy: sum
+		sourceColumn: acquired_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquired_day
+		dataType: int64
+		formatString: 0
+		lineageTag: 9637a162-4dda-4860-80e8-416b7d8cff7d
+		sourceLineageTag: acquired_day
+		summarizeBy: sum
+		sourceColumn: acquired_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquiring_company
+		dataType: string
+		lineageTag: 7642da1c-ae53-4da9-8710-a99c2ae52f5a
+		sourceLineageTag: acquiring_company
+		summarizeBy: none
+		sourceColumn: acquiring_company
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquired_company
+		dataType: string
+		lineageTag: 577944a9-d52a-4fad-8757-c37288da1e86
+		sourceLineageTag: acquired_company
+		summarizeBy: none
+		sourceColumn: acquired_company
+
+		annotation SummarizationSetBy = Automatic
+
+	partition acquisitions = entity
+		mode: directLake
+		source
+			entityName: acquisitions
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

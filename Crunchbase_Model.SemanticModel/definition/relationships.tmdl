@@ -1,0 +1,60 @@
+relationship a2928838-0dea-d499-15e9-65c6947e3b4d
+	relyOnReferentialIntegrity
+	fromColumn: acquisitions._id
+	toColumn: companies._id
+
+relationship d91c2dc4-ec71-082c-154a-dad4814b916a
+	relyOnReferentialIntegrity
+	fromColumn: competitions._id
+	toColumn: companies._id
+
+relationship 99941028-28e2-b517-794f-7ec0619a0016
+	relyOnReferentialIntegrity
+	fromColumn: fundings._id
+	toColumn: companies._id
+
+relationship daa83297-ad84-ed95-efcc-817c54d2a9dd
+	relyOnReferentialIntegrity
+	fromColumn: images._id
+	toColumn: companies._id
+
+relationship 862eda82-15d2-fa40-3326-50dedad62071
+	relyOnReferentialIntegrity
+	fromColumn: investments.funding_id
+	toColumn: fundings.funding_id
+
+relationship d2197060-ab2f-4020-4565-30c3cbdfdfc3
+	relyOnReferentialIntegrity
+	fromColumn: links._id
+	toColumn: companies._id
+
+relationship b26efb6a-b091-f35b-8ceb-ff345e6f0dac
+	relyOnReferentialIntegrity
+	fromColumn: milestones._id
+	toColumn: companies._id
+
+relationship e59bb20e-dd03-3e28-0e4b-a39c757fd6cf
+	relyOnReferentialIntegrity
+	fromColumn: offices._id
+	toColumn: companies._id
+
+relationship 65d5e372-5689-ee98-596e-3ee34906f121
+	relyOnReferentialIntegrity
+	fromColumn: partners._id
+	toColumn: companies._id
+
+relationship 657a5be8-504b-da01-2382-8f74502f0398
+	relyOnReferentialIntegrity
+	fromColumn: products._id
+	toColumn: companies._id
+
+relationship dd8c3ac6-f17d-9f87-0911-70b930f7881e
+	relyOnReferentialIntegrity
+	fromColumn: relationships._id
+	toColumn: companies._id
+
+relationship a142ea47-315f-55cd-ffff-3846e799ab7a
+	relyOnReferentialIntegrity
+	fromColumn: providerships._id
+	toColumn: companies._id
+

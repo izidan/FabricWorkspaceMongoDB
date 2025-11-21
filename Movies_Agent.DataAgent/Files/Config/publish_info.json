@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/publishInfo/1.0.0/schema.json",
+  "description": "Agent with access to information on movies and movie theatres. The data also contains information for certain metadata, including comments, awards, nominations, ratings and critic reviews on specific movies."
+}

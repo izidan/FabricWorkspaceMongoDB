@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "Crunchbase_Lake"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7362a4f1-b88a-a28a-464c-d1dc85ea02a7"
+  }
+}

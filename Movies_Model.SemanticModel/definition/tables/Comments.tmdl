@@ -1,0 +1,106 @@
+/// The comments added by the users on the movies
+table Comments
+	lineageTag: da619e3e-2510-471d-93b6-d5e114c2887f
+	sourceLineageTag: [dbo].[comments]
+
+	column _id
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: 8a0336d9-1990-4f16-bbb7-dac0c1e2f038
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The name of the user added the comment
+	column Name
+		dataType: string
+		lineageTag: 9f3edd5a-e839-46aa-a7ff-33e84170dbad
+		sourceLineageTag: name
+		isDefaultLabel
+		summarizeBy: none
+		sourceColumn: name
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The email of the user added the comment
+	column Email
+		dataType: string
+		lineageTag: b51e1387-2d27-4370-adb7-a76df91c79ea
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The _id of the movie
+	column 'Movie ID'
+		dataType: string
+		isHidden
+		lineageTag: 3c25cda7-780c-48e6-8221-ae04e9eef0ea
+		sourceLineageTag: movie_id
+		summarizeBy: none
+		sourceColumn: movie_id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The comment text added
+	column Comment
+		dataType: string
+		lineageTag: 32e7419d-5405-481e-90d2-bc58cc082a9e
+		sourceLineageTag: text
+		summarizeBy: none
+		sourceColumn: text
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The date the comment was added
+	column Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8590234c-8e2e-4665-88fb-a9514006ab4b
+		sourceLineageTag: date
+		summarizeBy: none
+		sourceColumn: date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Comments = entity
+		mode: directLake
+		source
+			entityName: comments
+			schemaName: dbo
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

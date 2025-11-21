@@ -1,0 +1,50 @@
+table investments
+	lineageTag: 7a2256c6-9472-4f07-8d15-a9d156c65dbf
+	sourceLineageTag: [dbo].[investments]
+
+	column _id
+		dataType: string
+		lineageTag: 03694c98-3638-4f56-92fb-57d4a03cf039
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column funding_id
+		dataType: string
+		isHidden
+		lineageTag: 8264516b-7ea3-4cd3-bfce-b4fa3f919f04
+		sourceLineageTag: funding_id
+		summarizeBy: none
+		sourceColumn: funding_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: af4f7124-fcd9-4668-b854-9f730bd8bda9
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 65e2ddf8-fedd-4016-bdde-0a8d3d371b66
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition investments = entity
+		mode: directLake
+		source
+			entityName: investments
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

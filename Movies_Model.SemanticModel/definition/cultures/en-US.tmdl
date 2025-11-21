@@ -1,0 +1,5796 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.2.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "note": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "comment.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "comment.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "comment.email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "Email"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "comment.movie_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "Movie ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "movie id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movie_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "movie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movie identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "comment.text": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "Comment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "text": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manuscript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "transcript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "typescript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "version": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "writing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "script": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "schoolbook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "reader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "comment.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Comments",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movies rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movie rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "movies_ratings": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movie assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "movie score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movie grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movie ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movie mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.plot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Plot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "conspiracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "subversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "strategy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stratagem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scheme": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "design": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "intrigue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "storyline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "scenario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Genres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.runtime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Runtime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "runtime": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.cast": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Cast"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cast": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "troupe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.poster": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Poster"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "poster": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artwork": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "photograph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "advertisement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "announcement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "placard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "notice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.fullplot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Full Plot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fullplot": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.language": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Languages"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "language": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "verbal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "idiom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "lingo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dialect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "patois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "tongue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "vernacular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "argot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "jargon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.released": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Released"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "free": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unconfined": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unrestricted": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "unconstrained": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating.director": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Directors"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "director": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "administrator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "executive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "boss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "instructor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counselor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counsellor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.rated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Rated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rated": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.awards_win": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Awards Wins"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "awards.win": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.awards_nomination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Awards Nominations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "awards.nomination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "award.nomination": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "award. proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. suggestion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. recommendation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. submission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. selection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "award. appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "award. nominee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "award. candidate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "award. choice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.awards_text": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Awards"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "awards.text": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "award.text": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "award. manuscript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. transcript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. typescript": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. edition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. version": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "award. writing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "award. script": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "award. copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "award. schoolbook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "award. reader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.lastupdated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Last Updated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lastupdated": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating.imdb_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "IMDb Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imdb.rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "imdb. assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "imdb. evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "imdb. score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "imdb. seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "imdb. hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.imdb_vote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "IMDb Votes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imdb.vote": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "imdb. division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "imdb. ballot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. election": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "imdb. poll": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.imdb_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "IMDb ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imdb id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "imdb.id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "imdb identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imdb identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imdb identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imdb credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Countries"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_website": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Website"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.website": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.website": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato. url": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "tomato. site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tomato. web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_viewer_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Viewer Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.viewer.rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.viewer.rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato.viewer. assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.viewer. evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.viewer. score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "tomato.viewer. seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "tomato.viewer. hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_viewer_numReview": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Viewer Reviews"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.viewer.numReview": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.viewer.numReview": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_viewer_meter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Viewer Meter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.viewer.meter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.viewer.meter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato.viewer. rhythm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.viewer. tempo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.viewer. cadence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.viewer. beat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. pulse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. pattern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. stress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. rhyme": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.viewer. gage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_dvd": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes DVD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes dvd": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato dvd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomatoes.dvd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "dvd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating.tomatoes_critic_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Critic Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.critic.rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.critic.rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato.critic. assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.critic. evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.critic. score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "tomato.critic. seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "tomato.critic. hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_critic_numReview": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Critic Reviews"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.critic.numReview": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.critic.numReview": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_critic_meter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Critic Meter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.critic.meter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.critic.meter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato.critic. rhythm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.critic. tempo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.critic. cadence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "tomato.critic. beat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. pulse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. pattern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. stress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. rhyme": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "tomato.critic. gage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_lastUpdated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Last Updated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.lastUpdated": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.lastUpdated": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movies_rating.tomatoes_consensus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Consensus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.consensus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.consensus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_rotten": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Rotten"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.rotten": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.rotten": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_production": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Production"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.production": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.production": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tomato. construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tomato. creation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tomato. invention": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tomato. fabrication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tomato. assembly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tomato. manufacture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "tomato. making": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.tomatoes_fresh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Tomatoes Fresh"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tomatoes.fresh": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tomato.fresh": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.num_mflix_comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Total Comments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num mflix comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "num_mflix_comments": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "num mflix clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num mflix commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num mflix explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num mflix feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num mflix observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num mflix note": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "number mflix comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.writer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Writers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "writer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "novelist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "playwright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "poet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "journalist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "essayist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "critic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "author": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movies_rating.metacritic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies Ratings",
+			          "ConceptualProperty": "Metacritic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "metacritic": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "theatre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Visible",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "theatre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "drama": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "acting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "playhouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "auditorium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cinema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "hall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.theater_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Theatre ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "theater id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "theaterId": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "theater": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "theater identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "theater identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "theater identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "theater credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "playhouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "auditorium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cinema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drama": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "thespianism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.street_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Street1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "street 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "street1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {},
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.zipcode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Zip Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zipcode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "theatre.street_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Theatres",
+			          "ConceptualProperty": "Street2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "street 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "street2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "comment_is_named_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Comments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comment": {
+			          "Target": {
+			            "Entity": "comment"
+			          }
+			        },
+			        "comment.name": {
+			          "Target": {
+			            "Entity": "comment.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "comment"
+			            },
+			            "Name": {
+			              "Role": "comment.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comment"
+			            },
+			            "Object": {
+			              "Role": "comment.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_poster_post_movies_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating.poster": {
+			          "Target": {
+			            "Entity": "movies_rating.poster"
+			          }
+			        },
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "movies_rating.poster"
+			            },
+			            "Verbs": [
+			              {
+			                "post": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating.poster"
+			            },
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.poster"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_director_direct_movies_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating.director": {
+			          "Target": {
+			            "Entity": "movies_rating.director"
+			          }
+			        },
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "movies_rating.director"
+			            },
+			            "Verbs": [
+			              {
+			                "direct": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating.director"
+			            },
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.director"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_writer_write_movies_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating.writer": {
+			          "Target": {
+			            "Entity": "movies_rating.writer"
+			          }
+			        },
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "movies_rating.writer"
+			            },
+			            "Verbs": [
+			              {
+			                "write": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating.writer"
+			            },
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.writer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_is_released_on_released": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.released": {
+			          "Target": {
+			            "Entity": "movies_rating.released"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "movies_rating.released"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9
+			        }
+			      ]
+			    },
+			    "movies_rating_is_lastupdated_on_lastupdated": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.lastupdated": {
+			          "Target": {
+			            "Entity": "movies_rating.lastupdated"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "movies_rating.lastupdated"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "lastupdat": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9
+			        }
+			      ]
+			    },
+			    "movies_rating_is_lastUpdated_on_tomatoes_lastUpdated": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_lastUpdated": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_lastUpdated"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "movies_rating.tomatoes_lastUpdated"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "lastUpdat": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9
+			        }
+			      ]
+			    },
+			    "movies_rating_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.country": {
+			          "Target": {
+			            "Entity": "movies_rating.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "movies_rating.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movies_rating.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_in_street_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.street_1": {
+			          "Target": {
+			            "Entity": "theatre.street_1"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "theatre.street_1"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "theatre.street_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.city": {
+			          "Target": {
+			            "Entity": "theatre.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "theatre.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "theatre.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.state": {
+			          "Target": {
+			            "Entity": "theatre.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "theatre.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "theatre.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_in_zipcode": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.zipcode": {
+			          "Target": {
+			            "Entity": "theatre.zipcode"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "theatre.zipcode"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "theatre.zipcode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_in_street_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.street_2": {
+			          "Target": {
+			            "Entity": "theatre.street_2"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "theatre.street_2"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "theatre.street_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "comment_has_text": {
+			      "Binding": {
+			        "ConceptualEntity": "Comments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comment": {
+			          "Target": {
+			            "Entity": "comment"
+			          }
+			        },
+			        "comment.text": {
+			          "Target": {
+			            "Entity": "comment.text"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comment"
+			            },
+			            "Object": {
+			              "Role": "comment.text"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "comment_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Comments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comment": {
+			          "Target": {
+			            "Entity": "comment"
+			          }
+			        },
+			        "comment.date": {
+			          "Target": {
+			            "Entity": "comment.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comment"
+			            },
+			            "Object": {
+			              "Role": "comment.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_plot": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.plot": {
+			          "Target": {
+			            "Entity": "movies_rating.plot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.plot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.genre": {
+			          "Target": {
+			            "Entity": "movies_rating.genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_runtime": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.runtime": {
+			          "Target": {
+			            "Entity": "movies_rating.runtime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.runtime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_cast": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.cast": {
+			          "Target": {
+			            "Entity": "movies_rating.cast"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.cast"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.title": {
+			          "Target": {
+			            "Entity": "movies_rating.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_fullplot": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.fullplot": {
+			          "Target": {
+			            "Entity": "movies_rating.fullplot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.fullplot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_language": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.language": {
+			          "Target": {
+			            "Entity": "movies_rating.language"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.language"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_released": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.released": {
+			          "Target": {
+			            "Entity": "movies_rating.released"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.released"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_rated": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.rated": {
+			          "Target": {
+			            "Entity": "movies_rating.rated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.rated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_awards_win": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.awards_win": {
+			          "Target": {
+			            "Entity": "movies_rating.awards_win"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.awards_win"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_awards_nomination": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.awards_nomination": {
+			          "Target": {
+			            "Entity": "movies_rating.awards_nomination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.awards_nomination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_awards_text": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.awards_text": {
+			          "Target": {
+			            "Entity": "movies_rating.awards_text"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.awards_text"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_lastupdated": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.lastupdated": {
+			          "Target": {
+			            "Entity": "movies_rating.lastupdated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.lastupdated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.year": {
+			          "Target": {
+			            "Entity": "movies_rating.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_imdb_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.imdb_rating": {
+			          "Target": {
+			            "Entity": "movies_rating.imdb_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.imdb_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_imdb_vote": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.imdb_vote": {
+			          "Target": {
+			            "Entity": "movies_rating.imdb_vote"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.imdb_vote"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_imdb_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.imdb_id": {
+			          "Target": {
+			            "Entity": "movies_rating.imdb_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.imdb_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.country": {
+			          "Target": {
+			            "Entity": "movies_rating.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.type": {
+			          "Target": {
+			            "Entity": "movies_rating.type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_website": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_website": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_website"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_website"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_viewer_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_viewer_rating": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_viewer_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_viewer_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_viewer_numReview": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_viewer_numReview": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_viewer_numReview"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_viewer_numReview"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_viewer_meter": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_viewer_meter": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_viewer_meter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_viewer_meter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_dvd": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_dvd": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_dvd"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_dvd"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_critic_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_critic_rating": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_critic_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_critic_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_critic_numReview": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_critic_numReview": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_critic_numReview"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_critic_numReview"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_critic_meter": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_critic_meter": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_critic_meter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_critic_meter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_lastUpdated": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_lastUpdated": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_lastUpdated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_lastUpdated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_consensus": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_consensus": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_consensus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_consensus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_rotten": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_rotten": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_rotten"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_rotten"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_production": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_production": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_production"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_production"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_tomatoes_fresh": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.tomatoes_fresh": {
+			          "Target": {
+			            "Entity": "movies_rating.tomatoes_fresh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.tomatoes_fresh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_num_mflix_comment": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.num_mflix_comment": {
+			          "Target": {
+			            "Entity": "movies_rating.num_mflix_comment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.num_mflix_comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "movies_rating_has_metacritic": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies Ratings"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        },
+			        "movies_rating.metacritic": {
+			          "Target": {
+			            "Entity": "movies_rating.metacritic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "movies_rating.metacritic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_theater_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.theater_id": {
+			          "Target": {
+			            "Entity": "theatre.theater_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.theater_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_street_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.street_1": {
+			          "Target": {
+			            "Entity": "theatre.street_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.street_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.city": {
+			          "Target": {
+			            "Entity": "theatre.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.state": {
+			          "Target": {
+			            "Entity": "theatre.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.latitude": {
+			          "Target": {
+			            "Entity": "theatre.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.longitude": {
+			          "Target": {
+			            "Entity": "theatre.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_zipcode": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.zipcode": {
+			          "Target": {
+			            "Entity": "theatre.zipcode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.zipcode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "theatre_has_street_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Theatres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "theatre": {
+			          "Target": {
+			            "Entity": "theatre"
+			          }
+			        },
+			        "theatre.street_2": {
+			          "Target": {
+			            "Entity": "theatre.street_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "theatre"
+			            },
+			            "Object": {
+			              "Role": "theatre.street_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "comment_has_movies_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Comments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comment": {
+			          "Target": {
+			            "Entity": "comment"
+			          }
+			        },
+			        "movies_rating": {
+			          "Target": {
+			            "Entity": "movies_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comment"
+			            },
+			            "Object": {
+			              "Role": "movies_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movies_rating"
+			            },
+			            "Object": {
+			              "Role": "comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  },
+			  "CustomInstructions": "You are an agent with access to data that contains information on movies and movie theatres. The data also contains information for certain metadata, including comments, awards, nominations, ratings and critic reviews on specific movies.\n\nYou can only answers questions about the movies and theatres with the comments the users shared without exposing any personal user information.\n\nThe data source contains the following tables:\n\n- comments: contains comments associated with specific movies. Each entry contains the comment text, the user who submitted it, and the movie the comment applies to.\n\n- movies_ratings: contains details on movies. Each entry contains a single movie, and information such as its title, release year, cast, awards, directors and ratings.\n\n- theatres: contains movie theatre locations. Each entry contains a single movie theatre and its geo location.\n\n\n\n\n"
+			}
+		contentType: json
+

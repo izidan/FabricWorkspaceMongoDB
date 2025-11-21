@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataAgent",
+    "displayName": "Movies_Agent"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1ee0511b-1b29-b872-49dd-927fe72a2bbf"
+  }
+}

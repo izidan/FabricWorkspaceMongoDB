@@ -1,0 +1,38 @@
+table videos
+	lineageTag: e67dcdee-0e0c-4f6d-b258-f8f3a7375958
+	sourceLineageTag: [dbo].[videos]
+
+	column _id
+		dataType: string
+		lineageTag: 01233612-bfeb-4723-a707-02550fa81735
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column embed_code
+		dataType: string
+		lineageTag: b0648559-5c1d-4fd9-ba57-2f39b77ccf73
+		sourceLineageTag: embed_code
+		summarizeBy: none
+		sourceColumn: embed_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: ab0707b3-332a-4114-b06d-ebe708d550b0
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition videos = entity
+		mode: directLake
+		source
+			entityName: videos
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

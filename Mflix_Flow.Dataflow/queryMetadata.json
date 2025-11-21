@@ -1,0 +1,38 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Mflix Cleanse",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "movies": {
+      "queryId": "7bc91c58-bae9-44a9-ba7e-6a5540f7b04a",
+      "queryName": "movies",
+      "loadEnabled": false
+    },
+    "theaters": {
+      "queryId": "3932e0de-aeb0-4782-8f81-472f76082555",
+      "queryName": "theaters",
+      "loadEnabled": false
+    },
+    "movies_DataDestination": {
+      "queryId": "5f4aa9b1-77e6-47da-a4ab-99f57210a244",
+      "queryName": "movies_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "theaters_DataDestination": {
+      "queryId": "e641ca5d-eeff-4a6e-97d4-f8b2b84a6a77",
+      "queryName": "theaters_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"e9aefebf-5610-4740-b061-238ef22d83f4\",\"DatasourceId\":\"81e69b9d-5399-4bdc-9f0e-d118259ab264\"}"
+    }
+  ]
+}

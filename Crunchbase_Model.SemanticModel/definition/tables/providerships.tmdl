@@ -1,0 +1,60 @@
+table providerships
+	lineageTag: 5894a12a-3758-405d-8eee-82cf49be53cd
+	sourceLineageTag: [dbo].[providerships]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 6fd5d64c-f071-41fc-adcb-394f7cf12e2b
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: f5dd056e-c27b-4043-9848-55a29e93f48e
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_past
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3365cf2e-69e3-4509-a0fb-f642b672ebe4
+		sourceLineageTag: is_past
+		summarizeBy: none
+		sourceColumn: is_past
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: e0566fd8-9b02-4f06-b7b9-56282e8dfdb3
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: bcdba29b-144b-4372-a1a5-f3daad9b88b3
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	partition providerships = entity
+		mode: directLake
+		source
+			entityName: providerships
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

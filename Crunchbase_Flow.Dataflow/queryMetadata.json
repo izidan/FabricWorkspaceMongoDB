@@ -1,0 +1,180 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Training_Flow",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "companies": {
+      "queryId": "dd31c2ec-86e0-480c-bb7b-c4ce4c35cd4d",
+      "queryName": "companies",
+      "loadEnabled": false
+    },
+    "products": {
+      "queryId": "84382814-7a87-4ae5-bc33-a13aa8b1eb59",
+      "queryName": "products",
+      "loadEnabled": false
+    },
+    "relationships": {
+      "queryId": "e88a0760-24df-4dc2-ac9d-50ddf1536977",
+      "queryName": "relationships",
+      "loadEnabled": false
+    },
+    "images": {
+      "queryId": "b592e87e-45bd-42a7-9139-1b6536e0a154",
+      "queryName": "images",
+      "loadEnabled": false
+    },
+    "competitions": {
+      "queryId": "55a1b7b3-a395-4b26-b5e6-285a249b8100",
+      "queryName": "competitions",
+      "loadEnabled": false
+    },
+    "providerships": {
+      "queryId": "32cec6d2-7862-4483-b64f-9543f5fb3101",
+      "queryName": "providerships",
+      "loadEnabled": false
+    },
+    "fundings": {
+      "queryId": "d9da576f-ea84-4b8b-8ef7-ec1d25da8011",
+      "queryName": "fundings",
+      "loadEnabled": false
+    },
+    "funding_investments": {
+      "queryId": "d26e06b3-e454-450d-859c-39461c671f5d",
+      "queryName": "funding_investments",
+      "loadEnabled": false
+    },
+    "investments": {
+      "queryId": "9f5b8627-2bea-4671-91dc-8bf1294abd37",
+      "queryName": "investments",
+      "loadEnabled": false
+    },
+    "acquisitions": {
+      "queryId": "938f47f5-f646-4711-84f1-f4a9f87d93fa",
+      "queryName": "acquisitions",
+      "loadEnabled": false
+    },
+    "offices": {
+      "queryId": "ba8bdd2c-4da8-439b-ac2e-37dee51a76c4",
+      "queryName": "offices",
+      "loadEnabled": false
+    },
+    "milestones": {
+      "queryId": "e9bdd2ac-e3f2-4703-829d-3b4d7490ece9",
+      "queryName": "milestones",
+      "loadEnabled": false
+    },
+    "partners": {
+      "queryId": "8237262a-8562-4a40-a702-ad9ea2b63200",
+      "queryName": "partners",
+      "loadEnabled": false
+    },
+    "videos": {
+      "queryId": "6e3a34fa-2149-4971-a11d-41ff1c877f05",
+      "queryName": "videos",
+      "loadEnabled": false
+    },
+    "screenshots": {
+      "queryId": "f1bcfeb3-4f3e-4e0c-9660-323374b0cd2b",
+      "queryName": "screenshots",
+      "loadEnabled": false
+    },
+    "links": {
+      "queryId": "575b7759-a176-41e5-ab5f-b04f9ddf4777",
+      "queryName": "links",
+      "loadEnabled": false
+    },
+    "products_DataDestination": {
+      "queryId": "2591f6db-8d7b-48e2-9310-ab80e9c29945",
+      "queryName": "products_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "relationships_DataDestination": {
+      "queryId": "5013224f-35de-4d56-9d1c-b403088ee57d",
+      "queryName": "relationships_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "images_DataDestination": {
+      "queryId": "9b792228-e618-4582-becb-8b2231ec0f64",
+      "queryName": "images_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "competitions_DataDestination": {
+      "queryId": "1ecf22a5-9c16-4f7f-bbd2-37703f1ce048",
+      "queryName": "competitions_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "providerships_DataDestination": {
+      "queryId": "e2cf6249-7833-4111-ab91-f10fc17a57f9",
+      "queryName": "providerships_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "fundings_DataDestination": {
+      "queryId": "4798fba0-c545-486c-b9cb-703939bc8489",
+      "queryName": "fundings_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "investments_DataDestination": {
+      "queryId": "8edb097c-305d-4085-b5d6-2f0a16f7dcef",
+      "queryName": "investments_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "acquisitions_DataDestination": {
+      "queryId": "5cc419d8-7e18-4d11-a8bc-d0ff9fefa048",
+      "queryName": "acquisitions_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "offices_DataDestination": {
+      "queryId": "f655ed68-d5e7-4cb4-92be-f4853832cc37",
+      "queryName": "offices_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "milestones_DataDestination": {
+      "queryId": "12ffd4eb-7d9a-4e54-8710-9c28fc8acb06",
+      "queryName": "milestones_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "partners_DataDestination": {
+      "queryId": "6ae109f8-dc95-4073-80c9-808f77aefb02",
+      "queryName": "partners_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "videos_DataDestination": {
+      "queryId": "e516b5cd-ca39-4a03-bf04-da7ae71d50b1",
+      "queryName": "videos_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "links_DataDestination": {
+      "queryId": "61155494-e6e8-4bdd-a9a5-305af1876035",
+      "queryName": "links_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "companies_DataDestination": {
+      "queryId": "db3c0c3d-5eea-4f02-bca9-778d44a3ff65",
+      "queryName": "companies_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"e9aefebf-5610-4740-b061-238ef22d83f4\",\"DatasourceId\":\"81e69b9d-5399-4bdc-9f0e-d118259ab264\"}"
+    }
+  ]
+}

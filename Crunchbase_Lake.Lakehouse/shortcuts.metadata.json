@@ -1,0 +1,15 @@
+[
+  {
+    "name": "companies",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/companies",
+        "itemId": "a80e35f6-8196-bc22-4be8-61fb573e086d",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "MountedRelationalDatabase"
+      }
+    }
+  }
+]

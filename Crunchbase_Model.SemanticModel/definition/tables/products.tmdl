@@ -1,0 +1,41 @@
+table products
+	lineageTag: f5bde71f-3d42-46f2-befb-2a45c6b360f6
+	sourceLineageTag: [dbo].[products]
+
+	column name
+		dataType: string
+		lineageTag: 62c3ff9a-7136-45c4-8780-f72e37d37ab3
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column permalink
+		dataType: string
+		lineageTag: 0f5d70da-3dab-4a02-9fea-20fb4e5b9fb0
+		sourceLineageTag: permalink
+		summarizeBy: none
+		sourceColumn: permalink
+
+		annotation SummarizationSetBy = Automatic
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 58210456-7482-4340-bbf0-5c917abe0407
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition products = entity
+		mode: directLake
+		source
+			entityName: products
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "users",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/users",
+        "itemId": "a80e35f6-8196-bc22-4be8-61fb573e086d",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "MountedRelationalDatabase"
+      }
+    }
+  },
+  {
+    "name": "theaters",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/theaters",
+        "itemId": "a80e35f6-8196-bc22-4be8-61fb573e086d",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "MountedRelationalDatabase"
+      }
+    }
+  },
+  {
+    "name": "movies",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/movies",
+        "itemId": "a80e35f6-8196-bc22-4be8-61fb573e086d",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "MountedRelationalDatabase"
+      }
+    }
+  },
+  {
+    "name": "comments",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/comments",
+        "itemId": "a80e35f6-8196-bc22-4be8-61fb573e086d",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "MountedRelationalDatabase"
+      }
+    }
+  }
+]

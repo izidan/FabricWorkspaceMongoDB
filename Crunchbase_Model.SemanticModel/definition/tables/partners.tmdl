@@ -1,0 +1,95 @@
+table partners
+	lineageTag: b1649cd4-5b56-4963-813e-18c1e40bbf90
+	sourceLineageTag: [dbo].[partners]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: e3a27d25-3df6-455d-a380-f3be90d714bb
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column partner_name
+		dataType: string
+		lineageTag: d932b1f6-db29-48ff-8c3a-dad7afa8d681
+		sourceLineageTag: partner_name
+		summarizeBy: none
+		sourceColumn: partner_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column homepage_url
+		dataType: string
+		lineageTag: 9a56d884-9d33-41a9-889a-236a173e9219
+		sourceLineageTag: homepage_url
+		summarizeBy: none
+		sourceColumn: homepage_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_1_url
+		dataType: string
+		lineageTag: e6d1361b-f47c-4d63-a48e-243031094408
+		sourceLineageTag: link_1_url
+		summarizeBy: none
+		sourceColumn: link_1_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_2_url
+		dataType: string
+		lineageTag: d743df68-c3de-43f7-adbe-e7d578aeef63
+		sourceLineageTag: link_2_url
+		summarizeBy: none
+		sourceColumn: link_2_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_3_url
+		dataType: string
+		lineageTag: fc3485cf-1c7c-4735-bc44-4248ba589691
+		sourceLineageTag: link_3_url
+		summarizeBy: none
+		sourceColumn: link_3_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_1_name
+		dataType: string
+		lineageTag: 3eac6be4-2087-403f-9ef2-d4535fc9e49b
+		sourceLineageTag: link_1_name
+		summarizeBy: none
+		sourceColumn: link_1_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_2_name
+		dataType: string
+		lineageTag: 8d2d5a54-2255-4876-9e11-3365962d1207
+		sourceLineageTag: link_2_name
+		summarizeBy: none
+		sourceColumn: link_2_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column link_3_name
+		dataType: string
+		lineageTag: 2655c6ac-6efd-4f28-a245-8ed51a2ccc39
+		sourceLineageTag: link_3_name
+		summarizeBy: none
+		sourceColumn: link_3_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition partners = entity
+		mode: directLake
+		source
+			entityName: partners
+			schemaName: dbo
+			expressionSource: 'DirectLake - Crunchbase_Lake'
+

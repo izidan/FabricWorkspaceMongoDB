@@ -1,0 +1,159 @@
+/// The US theatres where the movies released and watched by the users
+table Theatres
+	lineageTag: 487fae6d-ff5b-4daa-ab89-d43b03435277
+	sourceLineageTag: [dbo].[theatres]
+
+	column _id
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: c30f7b70-e9f8-46b5-87d0-43f0a3739484
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Theatre ID'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: afd5f190-e205-4c08-9ed5-9640af5f8042
+		sourceLineageTag: theaterId
+		isDefaultLabel
+		summarizeBy: none
+		sourceColumn: theaterId
+
+		changedProperty = SummarizeBy
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = User
+
+	/// First line of address street
+	column Street1
+		dataType: string
+		lineageTag: 96a49494-b4cb-4ab1-b88f-f9f3c8156860
+		sourceLineageTag: street1
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: street1
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: b8f0a5bf-a90e-492a-933b-80dc4b732b1a
+		sourceLineageTag: city
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: city
+
+		changedProperty = DataCategory
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column State
+		dataType: string
+		lineageTag: d5573454-3559-4b04-9776-46ffebb02b28
+		sourceLineageTag: state
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state
+
+		changedProperty = Name
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitude
+		dataType: double
+		lineageTag: 3a2b779e-1a63-46ec-8909-bcaf1920e048
+		sourceLineageTag: latitude
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		changedProperty = SummarizeBy
+
+		changedProperty = DataCategory
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Longitude
+		dataType: double
+		lineageTag: 5de8488d-a125-44fd-bcb5-21a2d9f37c51
+		sourceLineageTag: longitude
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Zip Code'
+		dataType: string
+		lineageTag: 246e7e62-2712-4696-8c3d-f154d7d33a0d
+		sourceLineageTag: zipcode
+		dataCategory: PostalCode
+		summarizeBy: none
+		sourceColumn: zipcode
+
+		changedProperty = Name
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Second line of address street
+	column Street2
+		dataType: string
+		lineageTag: 6f22d8ca-66d6-478c-8717-940dbe2a94e6
+		sourceLineageTag: street2
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: street2
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Theatres = entity
+		mode: directLake
+		source
+			entityName: theatres
+			schemaName: dbo
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+
+	changedProperty = Description
+
