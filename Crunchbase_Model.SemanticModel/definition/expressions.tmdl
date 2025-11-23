@@ -3,7 +3,9 @@ expression 'DirectLake - Crunchbase_Lake' =
 		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/2e558e5c-dad3-4673-8242-c21e57e63da5/85ea02a7-d1dc-464c-a28a-b88a7362a4f1", [HierarchicalNavigation=true])
 		in
 		    Source
-	lineageTag: 00cf1403-e334-4717-8554-e27e646dfc6e
+	lineageTag: db16772a-3537-45d4-add3-e8d651b86aa9
 
 	annotation PBI_IncludeFutureArtifacts = False
+
+	annotation PBI_RemovedChildren = [{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[companies]"}},"objectType":"Table"}]
 
