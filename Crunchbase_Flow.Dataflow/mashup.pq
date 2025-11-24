@@ -1,4 +1,4 @@
-[StagingDefinition = [Kind = "FastCopy"]]
+[DefaultOutputDestinationSettings = [DestinationDefinition = [Kind = "Reference", QueryName = "DefaultDestination", IsNewTarget = true], UpdateMethod = [Kind = "Replace"], DestinationTypeSettings = [Kind = "Table"]], StagingDefinition = [Kind = "FastCopy"]]
 section Section1;
 [DataDestinations = {[Definition = [Kind = "Reference", QueryName = "companies_DataDestination", IsNewTarget = true], Settings = [Kind = "Automatic", TypeSettings = [Kind = "Table"]]]}]
 shared companies = let
@@ -288,3 +288,4 @@ shared companies_DataDestination = let
   TableNavigation = Navigation_2{[Id = "companies_cleansed", ItemKind = "Table"]}?[Data]?
 in
   TableNavigation;
+shared DefaultDestination = Lakehouse.Contents([EnableFolding = false]){[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data]{[lakehouseId = "85ea02a7-d1dc-464c-a28a-b88a7362a4f1"]}[Data];

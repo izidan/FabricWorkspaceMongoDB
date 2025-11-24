@@ -168,6 +168,12 @@
       "queryName": "companies_DataDestination",
       "isHidden": true,
       "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "ec3462aa-4b5d-4e07-a0fc-af563e2f6a21",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
     }
   },
   "connections": [

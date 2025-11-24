@@ -5,31 +5,31 @@
   "queryGroups": [],
   "documentLocale": "en-GB",
   "queriesMetadata": {
-    "movies": {
-      "queryId": "7bc91c58-bae9-44a9-ba7e-6a5540f7b04a",
-      "queryName": "movies",
-      "loadEnabled": false
-    },
     "theaters": {
       "queryId": "3932e0de-aeb0-4782-8f81-472f76082555",
       "queryName": "theaters",
       "loadEnabled": false
     },
-    "theaters_DataDestination": {
-      "queryId": "10197a86-3adb-4633-acc0-1ee358208069",
-      "queryName": "theaters_DataDestination",
+    "DefaultDestination": {
+      "queryId": "fbcf598e-30e8-497c-ac57-8b31009743a4",
+      "queryName": "DefaultDestination",
       "isHidden": true,
       "loadEnabled": false
     },
+    "movies": {
+      "queryId": "2fe9c77a-d1ef-43c1-8878-c732a942b1e1",
+      "queryName": "movies",
+      "loadEnabled": false
+    },
     "movies_DataDestination": {
-      "queryId": "862e52ce-30e5-4015-9b57-2ee5399f18c1",
+      "queryId": "71d9fc50-7885-4e21-a812-21867ebb6be3",
       "queryName": "movies_DataDestination",
       "isHidden": true,
       "loadEnabled": false
     },
-    "DefaultDestination": {
-      "queryId": "fbcf598e-30e8-497c-ac57-8b31009743a4",
-      "queryName": "DefaultDestination",
+    "theaters_DataDestination": {
+      "queryId": "e4dacf78-e9ad-44f5-ae1f-de38844e6aa0",
+      "queryName": "theaters_DataDestination",
       "isHidden": true,
       "loadEnabled": false
     }

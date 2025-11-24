@@ -1,0 +1,5 @@
+relationship fb909bf5-b1a5-b6c4-971e-dc2e65ff98e5
+	relyOnReferentialIntegrity
+	fromColumn: Comments.'Movie ID'
+	toColumn: 'Movies Ratings'.ID
+

@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "SemanticModel",
-    "displayName": "Crunchbase_Model_old"
+    "type": "Report",
+    "displayName": "Movies_Report"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "ebd57d18-6b85-bfb6-4ea4-66bd15fe5285"
+    "logicalId": "eddb75de-1e6e-adca-41b9-81c42a15ef9d"
   }
 }

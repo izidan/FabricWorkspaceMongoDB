@@ -10,9 +10,9 @@ annotation PBI_QueryOrder = ["DirectLake - Mflix_Lake"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb"]
+annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb","WebModelingEdit"]
 
-ref table comments
-ref table movies_ratings
-ref table theatres
+ref table Comments
+ref table 'Movies Ratings'
+ref table Theatres
 

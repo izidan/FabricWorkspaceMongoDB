@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
-  "artifactId": "d17220b0-884a-bf5a-4546-f6478e9f498b",
+  "artifactId": "4c5c32dd-43a1-9807-4ea4-fca091fc1e2f",
   "workspaceId": "00000000-0000-0000-0000-000000000000",
   "dataSourceInstructions": null,
   "displayName": "Movies_Model",
@@ -9,401 +9,383 @@
   "metadata": {},
   "elements": [
     {
-      "id": "da619e3e-2510-471d-93b6-d5e114c2887f",
+      "id": "6861c812-155d-4cf6-b786-69997fdd8bbd",
       "is_selected": true,
       "display_name": "Comments",
       "type": "semantic_model.table",
-      "description": "The comments added by the users on the movies",
+      "description": null,
       "children": [
         {
-          "id": "32e7419d-5405-481e-90d2-bc58cc082a9e",
+          "id": "18c095ba-8fa1-4970-b41f-232bc57ff4a5",
           "is_selected": true,
           "display_name": "Comment",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The comment text added",
+          "description": "The comment test entered by the commentator",
           "children": []
         },
         {
-          "id": "8590234c-8e2e-4665-88fb-a9514006ab4b",
+          "id": "9beda198-5103-4e1c-8bb1-d761a1dcc4ac",
           "is_selected": true,
           "display_name": "Date",
           "type": "semantic_model.column",
           "data_type": "DateTime",
-          "description": "The date the comment was added",
+          "description": "The date the comment was posted",
           "children": []
         },
         {
-          "id": "b51e1387-2d27-4370-adb7-a76df91c79ea",
-          "is_selected": true,
-          "display_name": "Email",
-          "type": "semantic_model.column",
-          "data_type": "String",
-          "description": "The email of the user added the comment",
-          "children": []
-        },
-        {
-          "id": "9f3edd5a-e839-46aa-a7ff-33e84170dbad",
+          "id": "3f186d7e-1958-4380-ba48-d52222c14f42",
           "is_selected": true,
           "display_name": "Name",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The name of the user added the comment",
+          "description": "Name of the commentator",
           "children": []
         }
       ]
     },
     {
-      "id": "28f6e314-4444-487f-b99c-430cf2e5549f",
+      "id": "c889a045-9937-4151-9a11-b4b4ddff6abb",
       "is_selected": true,
       "display_name": "Movies Ratings",
       "type": "semantic_model.table",
-      "description": "Movies full details including awards and multiple ratings",
+      "description": null,
       "children": [
         {
-          "id": "c7c1a83e-9e00-4b71-8f04-d634b5888782",
+          "id": "743dc241-59ff-4e27-a79f-10967ef0ce08",
           "is_selected": true,
           "display_name": "Awards",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The description of awards nominated for and/or won",
+          "description": null,
           "children": []
         },
         {
-          "id": "ce37571e-dfee-4278-aeed-2be1a92f396c",
-          "is_selected": true,
-          "display_name": "Awards Nominations",
-          "type": "semantic_model.column",
-          "data_type": "Int64",
-          "description": "The number of awards nominated for",
-          "children": []
-        },
-        {
-          "id": "7c383b77-9bdf-466e-a553-c450961b0e31",
-          "is_selected": true,
-          "display_name": "Awards Wins",
-          "type": "semantic_model.column",
-          "data_type": "Int64",
-          "description": "The number of awards won",
-          "children": []
-        },
-        {
-          "id": "cec75451-d928-4a67-bffe-86ceea9e899e",
+          "id": "570c565d-e2f1-4ffe-bbd0-9a5a2e3178fa",
           "is_selected": true,
           "display_name": "Cast",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of the main casting actors ",
+          "description": "The casting team",
           "children": []
         },
         {
-          "id": "d01fe24b-7031-41af-8e67-abd4929052dd",
+          "id": "648f6ebc-2089-464c-bafd-925988b329b0",
           "is_selected": true,
           "display_name": "Countries",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of the countries the movie was distributed at",
+          "description": "Countries distributed and aired on",
           "children": []
         },
         {
-          "id": "9d52d851-6ff5-44e7-b4f7-d5ab76010ce3",
+          "id": "66222a32-6ddf-4a1d-a6a2-832fa586d49c",
           "is_selected": true,
           "display_name": "Directors",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of the movie directors",
+          "description": "Names of the directors contributed in directing the show ",
           "children": []
         },
         {
-          "id": "83a00cc5-cb53-44e4-a4fa-ddc6c9577bfc",
+          "id": "e6eba464-1aeb-49b9-9828-fa7995d96067",
           "is_selected": true,
           "display_name": "Full Plot",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Full description of the movie plot",
+          "description": "Summary of the movie story",
           "children": []
         },
         {
-          "id": "fdf17f8a-f329-48e1-a96b-4fa030a37a08",
+          "id": "b8338a5c-f461-4f48-9df2-80401ae80109",
           "is_selected": true,
           "display_name": "Genres",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of all genres the movie is categorised in",
+          "description": null,
           "children": []
         },
         {
-          "id": "2cfe759f-711c-4009-b948-bea9052fa61b",
+          "id": "dc18993a-63dd-4e7d-a8e1-bb0b0d9b865a",
           "is_selected": true,
           "display_name": "IMDb ID",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "The movie unique identifier in IMDb database",
+          "description": "The unique IMDb identifier of the show",
           "children": []
         },
         {
-          "id": "9bf1b925-1112-4e9c-a71b-6f005e230181",
+          "id": "94e71ca3-e472-47c6-9f11-feccf56610a5",
           "is_selected": true,
           "display_name": "IMDb Rating",
           "type": "semantic_model.column",
           "data_type": "Double",
-          "description": "The movie IMDb rating",
+          "description": "The consensus rating of the show given by IMDb voters ",
           "children": []
         },
         {
-          "id": "a827af23-658a-4806-bbf8-9510439bc509",
+          "id": "ea97b595-abc2-4e25-89c5-fa8a817cec16",
           "is_selected": true,
           "display_name": "IMDb Votes",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "The number of votes on IMDb site",
+          "description": "The number of votes received on IMDb",
           "children": []
         },
         {
-          "id": "3e2c34d5-ea40-4abb-9b30-c51634ab189d",
+          "id": "168ed046-d5cb-4486-86cd-67af9d7d899b",
           "is_selected": true,
           "display_name": "Languages",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of the languages the movie is translated into",
+          "description": "List of the languages movie translated into",
           "children": []
         },
         {
-          "id": "48ac16d1-e16e-4296-b46a-9830d2d61739",
+          "id": "8416b8f8-1cc8-4276-99c5-aafce4abf357",
           "is_selected": true,
           "display_name": "Last Updated",
           "type": "semantic_model.column",
           "data_type": "DateTime",
-          "description": "The time stamp of the last update of the movie details",
+          "description": "Last updated date of the show record",
           "children": []
         },
         {
-          "id": "ab9350a9-17a0-41a0-923c-bcba5691916a",
+          "id": "b5a57cda-b2a6-4749-9fcc-8fee2c144984",
           "is_selected": true,
           "display_name": "Metacritic",
           "type": "semantic_model.column",
           "data_type": "Double",
-          "description": "Metacritic score of the movie",
+          "description": "Metacritic score",
           "children": []
         },
         {
-          "id": "3b38070b-cacd-404f-bc2b-adf4da2604f0",
+          "id": "310d6665-c1ed-49f1-abae-56f160b34f8e",
+          "is_selected": true,
+          "display_name": "Nominations",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": "The number of the awards nominated for",
+          "children": []
+        },
+        {
+          "id": "8a6af374-0f9c-476d-91cb-374a0aae359f",
           "is_selected": true,
           "display_name": "Plot",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Short description of the movie plot",
+          "description": "Short summary of the story",
           "children": []
         },
         {
-          "id": "d0e10e9b-8205-4928-87b9-de412e473c2e",
+          "id": "9116ee03-98c0-4890-b8c3-6b76d960791e",
           "is_selected": true,
           "display_name": "Poster",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Image link to the movie poster",
+          "description": "Movie poster",
           "children": []
         },
         {
-          "id": "0b5b55fe-8b58-4922-8822-5bbda4e4c134",
+          "id": "42c20066-0e5d-4b1e-8241-86d03fa71c6c",
           "is_selected": true,
           "display_name": "Rated",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The movie age rating and classification",
+          "description": "Age rating and classification",
           "children": []
         },
         {
-          "id": "a7c73d27-93c7-4af9-9f60-3d931692b158",
+          "id": "9b1a80ed-e773-4847-9338-06fb1e7f5344",
           "is_selected": true,
           "display_name": "Released",
           "type": "semantic_model.column",
           "data_type": "DateTime",
-          "description": "The day the movie was released",
+          "description": "The date first released",
           "children": []
         },
         {
-          "id": "a2dcef75-90a5-453a-a2e1-f3c3a32baab7",
+          "id": "8f8db379-3cb6-4343-a128-4f900aba0a34",
           "is_selected": true,
           "display_name": "Runtime",
           "type": "semantic_model.column",
           "data_type": "Double",
-          "description": "The movie runtime in minutes",
+          "description": "The total length of the show",
           "children": []
         },
         {
-          "id": "ad8216f8-4444-44df-819b-4d878ad2cda7",
+          "id": "041c8a71-7eea-4c9e-a6c9-bc3675e89cc6",
           "is_selected": true,
           "display_name": "Title",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The main title of the movie",
+          "description": "Main title of the show",
           "children": []
         },
         {
-          "id": "c8e6b5a6-f977-4d8d-9f5e-5f4810acd91d",
+          "id": "83deb359-5b3c-4f94-bb77-f7bbd45adefc",
           "is_selected": true,
           "display_name": "Tomatoes Consensus",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "General viewers consensus as per Tomatoes site",
+          "description": "What the critics are saying about the new movies opening in theatres every week.",
           "children": []
         },
         {
-          "id": "c6b669c9-dd3a-49e5-b018-44a96cf86590",
+          "id": "19a8c131-fd63-42fc-a371-920dc7e71da0",
           "is_selected": true,
           "display_name": "Tomatoes Critic Meter",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "An indicator of the movie activity by Tomatoes critics",
+          "description": "Represents the percentage of professional critic reviews that are positive for a given film or television show",
           "children": []
         },
         {
-          "id": "a80a3570-5650-4f61-9ab7-1bfb2d924554",
+          "id": "104187cb-faa4-44d7-befa-87c1188d9100",
           "is_selected": true,
           "display_name": "Tomatoes Critic Rating",
           "type": "semantic_model.column",
           "data_type": "Double",
-          "description": "The movie rating by Tomatoes critics",
+          "description": "The average rating given by professional critic reviews for a given film or television show",
           "children": []
         },
         {
-          "id": "209211ad-deaf-470e-861d-4c3cc37c7df3",
+          "id": "671cf99e-cf16-4372-b58d-befc1c660ac7",
           "is_selected": true,
           "display_name": "Tomatoes Critic Reviews",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "The number of reviews by Tomatoes critics",
+          "description": "The number of professional critic reviews for a given film or television show",
           "children": []
         },
         {
-          "id": "eb580e46-f482-4bfb-9bec-1cbc970c0d7d",
+          "id": "d90a08fa-6ce3-4453-8bb9-353cfa7dee7e",
           "is_selected": true,
           "display_name": "Tomatoes DVD",
           "type": "semantic_model.column",
           "data_type": "DateTime",
-          "description": "The year the movies DVD was released as per Tomatoes site",
+          "description": "The year of releasing the show on DVD",
           "children": []
         },
         {
-          "id": "faf5d758-7600-42c1-b9b2-2c4b2b143558",
+          "id": "7958907c-ff7e-4f26-bfa2-84c2101ab3fe",
           "is_selected": true,
           "display_name": "Tomatoes Fresh",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "Tomatoes indicator for movies achieved above 60% of ratings indicating positive rating",
+          "description": "Fresh score. When at least 60% of reviews for a movie or TV show are positive, it is considered Fresh.",
           "children": []
         },
         {
-          "id": "5d96d23c-dbf7-4680-8962-4758aa70332c",
+          "id": "cd21013a-bf18-4926-8651-a70e817e68b2",
           "is_selected": true,
           "display_name": "Tomatoes Last Updated",
           "type": "semantic_model.column",
           "data_type": "DateTime",
-          "description": "The time stamp of the movie ratings was last updated from Tomatoes site",
+          "description": "Last date the tomatoes scoring was refreshed",
           "children": []
         },
         {
-          "id": "a7a35a76-74d9-4786-9d32-8f35344641c1",
+          "id": "07bae832-5297-4a59-b91d-69373a32df60",
           "is_selected": true,
           "display_name": "Tomatoes Production",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The movies producers or production house as per Tomatoes site",
+          "description": "The production houses, companies or individuals produced the show",
           "children": []
         },
         {
-          "id": "e8228aad-bc90-4607-9a0b-050c0b13641e",
+          "id": "ec231a2e-2e4c-4078-8546-fd7b5fc06daa",
           "is_selected": true,
           "display_name": "Tomatoes Rotten",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "Tomatoes indicator for movies achieved below 60% of ratings indicating negative rating",
+          "description": "Rotten score. When at least 60% of reviews for a movie or TV show are negative, it is considered Rotten.",
           "children": []
         },
         {
-          "id": "70eac17b-5a3a-4d5c-874e-19c645395c47",
+          "id": "4a9dac6e-2c14-42e4-b32a-451e1dff865b",
           "is_selected": true,
           "display_name": "Tomatoes Viewer Meter",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "An indicator of the movie activity by Tomatoes viewers",
+          "description": "Represents the percentage of viewers that are positive for a given film or television show",
           "children": []
         },
         {
-          "id": "e07649b5-0e32-4393-a548-b757aa3dbe23",
+          "id": "81ef8458-c330-4801-bdd0-19499f04687b",
           "is_selected": true,
           "display_name": "Tomatoes Viewer Rating",
           "type": "semantic_model.column",
           "data_type": "Double",
-          "description": "The movie rating by Tomatoes viewers",
+          "description": "The average rating given by viewers reviews for a given film or television show",
           "children": []
         },
         {
-          "id": "0d3c95d6-9b03-4b0c-9a43-825d5f80a2a4",
+          "id": "d14c9c5c-b9d8-43f5-b35c-0c0bf7d100d8",
           "is_selected": true,
           "display_name": "Tomatoes Viewer Reviews",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "The number of reviews by Tomatoes viewers",
+          "description": "The number of viewers reviews for a given film or television show",
           "children": []
         },
         {
-          "id": "a3479fe5-1c5b-4610-849d-431f9cff3573",
+          "id": "7da10a6a-2d41-46ed-8a95-b8c68791a8ae",
           "is_selected": true,
           "display_name": "Tomatoes Website",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The movie website as per Tomatoes site",
+          "description": "The link to the show information on Tomatoes site",
           "children": []
         },
         {
-          "id": "dfe069d0-530f-4a96-a4b3-d0a441d289b9",
-          "is_selected": true,
-          "display_name": "Total Comments",
-          "type": "semantic_model.column",
-          "data_type": "Int64",
-          "description": "The number of comments on the movie",
-          "children": []
-        },
-        {
-          "id": "f9e876f7-bea8-487d-b6ff-bb7c18adf287",
+          "id": "fc47b65a-e9be-4042-ba6b-1cf273527262",
           "is_selected": true,
           "display_name": "Type",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "The type of the title, either movie or series",
+          "description": "The type of the show (movie or series)",
           "children": []
         },
         {
-          "id": "1aec4e80-cbd7-46d9-93ad-957ce498e776",
+          "id": "a04ef4d8-7748-4406-81ef-e91945f7d450",
+          "is_selected": true,
+          "display_name": "Wins",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": "The number of the awards won",
+          "children": []
+        },
+        {
+          "id": "d1475cd9-9c02-42c5-8bfb-2a013d14a4f0",
           "is_selected": true,
           "display_name": "Writers",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Comma separated list of the movie writers",
+          "description": "The story writers of the show",
           "children": []
         },
         {
-          "id": "357dd7f0-4d14-4c26-a78d-267733a0792e",
+          "id": "df132863-e4ce-4b16-93f3-fa5edb341140",
           "is_selected": true,
           "display_name": "Year",
           "type": "semantic_model.column",
           "data_type": "Int64",
-          "description": "The year the movie was released",
+          "description": "The released year",
           "children": []
         }
       ]
     },
     {
-      "id": "487fae6d-ff5b-4daa-ab89-d43b03435277",
+      "id": "c8cd4160-636b-4ed0-975b-1a8bd811bc18",
       "is_selected": true,
       "display_name": "Theatres",
       "type": "semantic_model.table",
-      "description": "The US theatres where the movies released and watched by the users",
+      "description": null,
       "children": [
         {
-          "id": "b8f0a5bf-a90e-492a-933b-80dc4b732b1a",
+          "id": "b2abaad7-d4f7-4352-9ab3-ba7e3f1c2f8d",
           "is_selected": true,
           "display_name": "City",
           "type": "semantic_model.column",
@@ -412,7 +394,7 @@
           "children": []
         },
         {
-          "id": "3a2b779e-1a63-46ec-8909-bcaf1920e048",
+          "id": "ea790ef3-fc98-4f9a-94df-606ecb105dbc",
           "is_selected": true,
           "display_name": "Latitude",
           "type": "semantic_model.column",
@@ -421,7 +403,7 @@
           "children": []
         },
         {
-          "id": "5de8488d-a125-44fd-bcb5-21a2d9f37c51",
+          "id": "361f9966-7216-4bd8-af8f-b4b18bdbe940",
           "is_selected": true,
           "display_name": "Longitude",
           "type": "semantic_model.column",
@@ -430,7 +412,7 @@
           "children": []
         },
         {
-          "id": "d5573454-3559-4b04-9776-46ffebb02b28",
+          "id": "c2ce6bf4-0286-4a68-a872-4f714186622d",
           "is_selected": true,
           "display_name": "State",
           "type": "semantic_model.column",
@@ -439,25 +421,34 @@
           "children": []
         },
         {
-          "id": "96a49494-b4cb-4ab1-b88f-f9f3c8156860",
+          "id": "29fa45de-d4e6-44d5-83a5-b361ba913bde",
           "is_selected": true,
           "display_name": "Street1",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "First line of address street",
+          "description": null,
           "children": []
         },
         {
-          "id": "6f22d8ca-66d6-478c-8717-940dbe2a94e6",
+          "id": "fa9f33e3-ba77-4ffa-be53-8536c1d3e075",
           "is_selected": true,
           "display_name": "Street2",
           "type": "semantic_model.column",
           "data_type": "String",
-          "description": "Second line of address street",
+          "description": null,
           "children": []
         },
         {
-          "id": "246e7e62-2712-4696-8c3d-f154d7d33a0d",
+          "id": "187410ef-9817-4784-a5db-1104720418f5",
+          "is_selected": true,
+          "display_name": "Theater ID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "40d9b247-4704-4a59-b2a8-03f11e21375c",
           "is_selected": true,
           "display_name": "Zip Code",
           "type": "semantic_model.column",

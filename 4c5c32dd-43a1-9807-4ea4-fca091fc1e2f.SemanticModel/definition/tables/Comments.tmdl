@@ -1,53 +1,79 @@
-table comments
+table Comments
 	lineageTag: 6861c812-155d-4cf6-b786-69997fdd8bbd
 	sourceLineageTag: [dbo].[comments]
 
-	column _id
+	column ID
 		dataType: string
+		isHidden
 		lineageTag: 1a8deff1-94f2-4df4-a2ae-3d665ea41e1e
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
 
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
 		annotation SummarizationSetBy = Automatic
 
-	column name
+	/// Name of the commentator
+	column Name
 		dataType: string
 		lineageTag: 3f186d7e-1958-4380-ba48-d52222c14f42
 		sourceLineageTag: name
 		summarizeBy: none
 		sourceColumn: name
 
+		changedProperty = Name
+
+		changedProperty = Description
+
 		annotation SummarizationSetBy = Automatic
 
-	column email
+	column Email
 		dataType: string
+		isHidden
 		lineageTag: 6602940d-61f0-46d8-aff0-7adf5aee70b7
 		sourceLineageTag: email
 		summarizeBy: none
 		sourceColumn: email
 
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
 		annotation SummarizationSetBy = Automatic
 
-	column movie_id
+	column 'Movie ID'
 		dataType: string
+		isHidden
 		lineageTag: 01ed32f0-773b-42f4-80d3-f8b9fd1e0e64
 		sourceLineageTag: movie_id
 		summarizeBy: none
 		sourceColumn: movie_id
 
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
 		annotation SummarizationSetBy = Automatic
 
-	column text
+	/// The comment test entered by the commentator
+	column Comment
 		dataType: string
 		lineageTag: 18c095ba-8fa1-4970-b41f-232bc57ff4a5
 		sourceLineageTag: text
 		summarizeBy: none
 		sourceColumn: text
 
+		changedProperty = Name
+
+		changedProperty = Description
+
 		annotation SummarizationSetBy = Automatic
 
-	column date
+	/// The date the comment was posted
+	column Date
 		dataType: dateTime
 		formatString: General Date
 		lineageTag: 9beda198-5103-4e1c-8bb1-d761a1dcc4ac
@@ -55,11 +81,19 @@ table comments
 		summarizeBy: none
 		sourceColumn: date
 
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = FormatString
+
 		annotation SummarizationSetBy = Automatic
 
-	partition comments = entity
+	partition Comments = entity
 		mode: directLake
 		source
 			entityName: comments
 			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
 
