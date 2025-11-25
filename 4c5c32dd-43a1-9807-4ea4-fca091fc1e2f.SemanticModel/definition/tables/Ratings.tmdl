@@ -1,0 +1,286 @@
+/// IMDb and Tomatoes ratings
+table Ratings
+	lineageTag: 918b3d42-0b1d-4990-80c0-18e94ec6b85b
+	sourceLineageTag: [dbo].[ratings]
+
+	column 'Show ID'
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: 52f11d21-bea8-443c-9b08-ca8905ab25eb
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The consensus rating of the show given by IMDb voters
+	column 'IMDb Rating'
+		dataType: double
+		lineageTag: b2f2ddf7-f431-47be-8e0c-d8224f65a7ba
+		sourceLineageTag: imdb.rating
+		summarizeBy: sum
+		sourceColumn: imdb.rating
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of votes received on IMDb
+	column 'IMDb Votes'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6a431428-fbc0-4d90-95b4-54af08e66bdb
+		sourceLineageTag: imdb.votes
+		summarizeBy: sum
+		sourceColumn: imdb.votes
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The unique IMDb identifier of the show
+	column 'IMDb ID'
+		dataType: string
+		lineageTag: e037a896-a05f-4a03-a051-79798d700eda
+		sourceLineageTag: imdb.id
+		summarizeBy: none
+		sourceColumn: imdb.id
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The link to the show information on Tomatoes site
+	column 'Tomatoes Website'
+		dataType: string
+		lineageTag: c95267c6-d268-4134-9deb-f42387ac5c71
+		sourceLineageTag: tomatoes.website
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: tomatoes.website
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The average rating given by viewers reviews for a given show
+	column 'Tomatoes Viewer Rating'
+		dataType: double
+		lineageTag: f14889b7-8021-4627-9831-00205c3b752a
+		sourceLineageTag: tomatoes.viewer.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.rating
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of viewers reviews for a given show
+	column 'Tomatoes Viewer Reviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: 70cdeb1d-9061-4e71-b1fd-d9d05ba16752
+		sourceLineageTag: tomatoes.viewer.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.numReviews
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Represents the percentage of viewers that are positive for a given film or television show
+	column 'Tomatoes Viewer Meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 909d5875-e7c1-4b9c-be17-9a51575e2974
+		sourceLineageTag: tomatoes.viewer.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.meter
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The year of releasing the show on DVD
+	column 'Tomatoes DVD'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 7da42d5f-72c6-4bec-9ea9-a749b78e8aeb
+		sourceLineageTag: tomatoes.dvd
+		summarizeBy: none
+		sourceColumn: tomatoes.dvd
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The average rating given by professional critic reviews for a given show
+	column 'Tomatoes Critic Rating'
+		dataType: double
+		lineageTag: ff15444a-a810-40a5-9372-9a13684daa7f
+		sourceLineageTag: tomatoes.critic.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.rating
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The number of professional critic reviews for a given show
+	column 'Tomatoes Critic Reviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7afd6462-bdb1-4230-87c9-e4d3110ce6d0
+		sourceLineageTag: tomatoes.critic.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.numReviews
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Represents the percentage of professional critic reviews that are positive for the show
+	column 'Tomatoes Critic Meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 494b500f-c1be-4539-9841-16030dd153f5
+		sourceLineageTag: tomatoes.critic.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.meter
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The total revenues the show achieved
+	column 'Tomatoes Box Office'
+		dataType: string
+		lineageTag: 6fbddf5c-e405-4326-a718-bf5368062dc0
+		sourceLineageTag: tomatoes.boxOffice
+		summarizeBy: none
+		sourceColumn: tomatoes.boxOffice
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Last date the tomatoes scoring was refreshed
+	column 'Tomatoes Last Updated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 65e495ca-9b19-45af-ba9c-f6ff0d8579ec
+		sourceLineageTag: tomatoes.lastUpdated
+		summarizeBy: none
+		sourceColumn: tomatoes.lastUpdated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// What the critics are saying about the new movies opening in theatres every week.
+	column 'Tomatoes Consensus'
+		dataType: string
+		lineageTag: e72829cb-c85a-410c-8830-a99223342769
+		sourceLineageTag: tomatoes.consensus
+		summarizeBy: none
+		sourceColumn: tomatoes.consensus
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Rotten score. When at least 60% of reviews for a show are negative, it is considered Rotten.
+	column 'Tomatoes Rotten'
+		dataType: int64
+		formatString: 0
+		lineageTag: cda2b712-1ec9-4d4f-a3e8-ba2b8c456f2b
+		sourceLineageTag: tomatoes.rotten
+		summarizeBy: sum
+		sourceColumn: tomatoes.rotten
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The production houses, companies or individuals produced the show
+	column 'Tomatoes Production'
+		dataType: string
+		lineageTag: 9c1a1d7d-a2c7-49ab-9c63-5bc7e8f2f6ae
+		sourceLineageTag: tomatoes.production
+		summarizeBy: none
+		sourceColumn: tomatoes.production
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Fresh score. When at least 60% of reviews for a show are positive, it is considered Fresh.
+	column 'Tomatoes Fresh'
+		dataType: int64
+		formatString: 0
+		lineageTag: fd66ea63-401a-48aa-a13b-3ecc0c6e341c
+		sourceLineageTag: tomatoes.fresh
+		summarizeBy: sum
+		sourceColumn: tomatoes.fresh
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Ratings = entity
+		mode: directLake
+		source
+			entityName: ratings
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

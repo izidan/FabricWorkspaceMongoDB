@@ -1,0 +1,123 @@
+table theatres
+	lineageTag: 7f5e12fc-007a-435c-a5bf-dd09b6a2de5d
+	sourceLineageTag: [dbo].[theatres]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 0e2016cc-e285-41f3-ad3f-74614fa5eeb8
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column street1
+		dataType: string
+		lineageTag: b89479fb-3a77-4dfd-adf3-e5d5c467b7eb
+		sourceLineageTag: street1
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: street1
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column street2
+		dataType: string
+		lineageTag: 37189c19-4eb4-4cc3-9aeb-6b51514fa82c
+		sourceLineageTag: street2
+		summarizeBy: none
+		sourceColumn: street2
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 52504e73-37aa-451c-ae28-2a8e54700898
+		sourceLineageTag: city
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: city
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 0aae3f8c-1a44-4249-ac36-2464d124276e
+		sourceLineageTag: state
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column zipcode
+		dataType: string
+		lineageTag: e23f1858-30cc-4475-820c-ad5e902ada28
+		sourceLineageTag: zipcode
+		dataCategory: PostalCode
+		summarizeBy: none
+		sourceColumn: zipcode
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: 1356cb25-11db-4aba-89b6-7fb729b8f96c
+		sourceLineageTag: latitude
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		changedProperty = SummarizeBy
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: a4f7eb42-d64b-42c3-989f-999326b9d4ad
+		sourceLineageTag: longitude
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		changedProperty = DataCategory
+
+		changedProperty = SummarizeBy
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column theaterId
+		dataType: string
+		isHidden
+		lineageTag: 1d2b480e-f3df-452c-890d-f924893733a5
+		sourceLineageTag: theaterId
+		summarizeBy: none
+		sourceColumn: theaterId
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition theatres = entity
+		mode: directLake
+		source
+			entityName: theatres
+			expressionSource: 'DirectLake - Mflix_Lake'
+

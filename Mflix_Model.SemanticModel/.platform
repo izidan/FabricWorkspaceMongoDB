@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Mflix_Model"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d9d27109-2cf8-886b-437c-fd0c083ff84d"
+  }
+}

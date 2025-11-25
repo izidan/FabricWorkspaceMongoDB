@@ -1,0 +1,41 @@
+table Actors
+	lineageTag: dadb4972-65bb-4fe1-beca-0ab86f38e2ad
+	sourceLineageTag: [dbo].[actors]
+
+	column 'Show ID'
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: 2fbe2089-ac2c-40c3-9361-aa8e1ec374b2
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The cast member name
+	column Actor
+		dataType: string
+		lineageTag: 39f5b720-99fc-4afc-a8f3-ad2361517d76
+		sourceLineageTag: actor
+		summarizeBy: none
+		sourceColumn: actor
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Actors = entity
+		mode: directLake
+		source
+			entityName: actors
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+

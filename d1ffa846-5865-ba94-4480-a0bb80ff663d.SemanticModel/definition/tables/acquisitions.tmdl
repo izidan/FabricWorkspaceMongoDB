@@ -4,10 +4,13 @@ table acquisitions
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 690c4343-e5b6-442e-b5e7-e87b54441841
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

@@ -4,10 +4,13 @@ table milestones
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 6122e78a-8a3c-4451-8ebb-765330b85e74
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

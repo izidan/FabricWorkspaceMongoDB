@@ -10,13 +10,12 @@ annotation PBI_QueryOrder = ["DirectLake - Crunchbase_Lake"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb"]
+annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb","WebModelingEdit"]
 
 ref table videos
 ref table partners
 ref table links
 ref table images
-ref table companies_cleansed
 ref table providerships
 ref table products
 ref table relationships
@@ -26,4 +25,5 @@ ref table competitions
 ref table offices
 ref table milestones
 ref table fundings
+ref table organizations
 

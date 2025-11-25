@@ -1,5 +1,42 @@
-relationship fb909bf5-b1a5-b6c4-971e-dc2e65ff98e5
+relationship 90d47484-65e4-6369-4a9f-2e621921589e
+	crossFilteringBehavior: bothDirections
 	relyOnReferentialIntegrity
-	fromColumn: Comments.'Movie ID'
-	toColumn: 'Movies Ratings'.ID
+	fromCardinality: one
+	fromColumn: Ratings.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship c6edadfa-2ce8-205e-5d3f-9c7578309a32
+	relyOnReferentialIntegrity
+	fromColumn: Genres.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship ad6bac4d-74d6-21c4-7db8-45523a407bce
+	relyOnReferentialIntegrity
+	fromColumn: Directors.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship 83c3ccd6-153f-2c2d-3631-b37980317074
+	relyOnReferentialIntegrity
+	fromColumn: Countries.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship c1c64423-e712-f71f-87ae-fe83464e148c
+	relyOnReferentialIntegrity
+	fromColumn: Actors.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship e15ed75c-5308-27ae-55c5-186070fcdbb6
+	relyOnReferentialIntegrity
+	fromColumn: Writers.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship ecf58f11-fa60-9bc5-4dd2-ff33dfd6b610
+	relyOnReferentialIntegrity
+	fromColumn: Languages.'Show ID'
+	toColumn: Shows.'Show ID'
+
+relationship 0e3a67d1-8663-8636-1438-1d1400a074a9
+	relyOnReferentialIntegrity
+	fromColumn: Comments.'Show ID'
+	toColumn: Shows.'Show ID'
 

@@ -4,10 +4,13 @@ table competitions
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 708badac-a6fb-4015-afe3-6e2639e877f7
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

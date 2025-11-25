@@ -5,6 +5,7 @@ table Comments
 	column ID
 		dataType: string
 		isHidden
+		isNullable: false
 		lineageTag: 1a8deff1-94f2-4df4-a2ae-3d665ea41e1e
 		sourceLineageTag: _id
 		summarizeBy: none
@@ -17,8 +18,9 @@ table Comments
 		annotation SummarizationSetBy = Automatic
 
 	/// Name of the commentator
-	column Name
+	column User
 		dataType: string
+		isNullable: false
 		lineageTag: 3f186d7e-1958-4380-ba48-d52222c14f42
 		sourceLineageTag: name
 		summarizeBy: none
@@ -44,9 +46,10 @@ table Comments
 
 		annotation SummarizationSetBy = Automatic
 
-	column 'Movie ID'
+	column 'Show ID'
 		dataType: string
 		isHidden
+		isNullable: false
 		lineageTag: 01ed32f0-773b-42f4-80d3-f8b9fd1e0e64
 		sourceLineageTag: movie_id
 		summarizeBy: none

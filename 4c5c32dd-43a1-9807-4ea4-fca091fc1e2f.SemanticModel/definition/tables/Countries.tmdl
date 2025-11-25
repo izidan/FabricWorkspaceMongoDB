@@ -1,0 +1,45 @@
+table Countries
+	lineageTag: 465a9a07-6ab1-49c4-b464-fee68bc1c6e7
+	sourceLineageTag: [dbo].[countries]
+
+	column 'Show ID'
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: c41d28ed-a722-4ee2-a5af-886c98467190
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The country where the show was distributed
+	column Country
+		dataType: string
+		isNullable: false
+		lineageTag: 7dd14719-dc9c-4e49-bb5e-3b30a11622f5
+		sourceLineageTag: country
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: country
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Countries = entity
+		mode: directLake
+		source
+			entityName: countries
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+

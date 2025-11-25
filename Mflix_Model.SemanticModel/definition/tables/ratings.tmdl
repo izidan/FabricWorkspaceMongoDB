@@ -1,0 +1,190 @@
+table ratings
+	lineageTag: 92c40115-4ed3-4a54-96e8-e93aa4c81ec5
+	sourceLineageTag: [dbo].[ratings]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 9c8b5482-8c5b-4010-b81c-948064eadfc4
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'imdb.rating'
+		dataType: double
+		lineageTag: 403afb74-e03f-4bfa-bf6e-b2bff91a0f50
+		sourceLineageTag: imdb.rating
+		summarizeBy: sum
+		sourceColumn: imdb.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'imdb.votes'
+		dataType: int64
+		formatString: 0
+		lineageTag: f9553fb3-f6ac-460d-8fc6-3f3b71fb88eb
+		sourceLineageTag: imdb.votes
+		summarizeBy: sum
+		sourceColumn: imdb.votes
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'imdb.id'
+		dataType: string
+		lineageTag: 8a9bd211-7007-4fc8-aa97-4c0044ed053b
+		sourceLineageTag: imdb.id
+		summarizeBy: none
+		sourceColumn: imdb.id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.website'
+		dataType: string
+		lineageTag: acc83d2b-05b2-451f-a7dc-873d0e16d146
+		sourceLineageTag: tomatoes.website
+		summarizeBy: none
+		sourceColumn: tomatoes.website
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.viewer.rating'
+		dataType: double
+		lineageTag: 57315727-1bb1-439f-8e2b-723ebb7dda58
+		sourceLineageTag: tomatoes.viewer.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'tomatoes.viewer.numReviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: f1b7e424-c7a6-46b8-b0b0-654d9d885e4d
+		sourceLineageTag: tomatoes.viewer.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.numReviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.viewer.meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 714c4bee-d201-41b6-9021-fe103225a363
+		sourceLineageTag: tomatoes.viewer.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.viewer.meter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.dvd'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e1e1a6c3-02b4-4e16-bc06-f9b136292280
+		sourceLineageTag: tomatoes.dvd
+		summarizeBy: none
+		sourceColumn: tomatoes.dvd
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.critic.rating'
+		dataType: double
+		lineageTag: 3b42a3fa-f661-4eb7-a190-899583f31e85
+		sourceLineageTag: tomatoes.critic.rating
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'tomatoes.critic.numReviews'
+		dataType: int64
+		formatString: 0
+		lineageTag: c8faa87c-29cd-469d-aa1d-b3953423c284
+		sourceLineageTag: tomatoes.critic.numReviews
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.numReviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.critic.meter'
+		dataType: int64
+		formatString: 0
+		lineageTag: b4bb212e-c331-4c18-bd99-cbad3b05e66d
+		sourceLineageTag: tomatoes.critic.meter
+		summarizeBy: sum
+		sourceColumn: tomatoes.critic.meter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.boxOffice'
+		dataType: string
+		lineageTag: 8ae7d2be-616c-43fc-9479-30ccf75e38c7
+		sourceLineageTag: tomatoes.boxOffice
+		summarizeBy: none
+		sourceColumn: tomatoes.boxOffice
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.lastUpdated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 37f54894-70eb-4fc4-af92-292c62a3477d
+		sourceLineageTag: tomatoes.lastUpdated
+		summarizeBy: none
+		sourceColumn: tomatoes.lastUpdated
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.consensus'
+		dataType: string
+		lineageTag: a6e51a2e-bd9c-476d-811c-98638c0716cf
+		sourceLineageTag: tomatoes.consensus
+		summarizeBy: none
+		sourceColumn: tomatoes.consensus
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.rotten'
+		dataType: int64
+		formatString: 0
+		lineageTag: c0808b9d-f006-4cac-87e2-215ebd7b8c4c
+		sourceLineageTag: tomatoes.rotten
+		summarizeBy: sum
+		sourceColumn: tomatoes.rotten
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.production'
+		dataType: string
+		lineageTag: d82d873f-e551-4e6f-a3d7-4b7ac680aa75
+		sourceLineageTag: tomatoes.production
+		summarizeBy: none
+		sourceColumn: tomatoes.production
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tomatoes.fresh'
+		dataType: int64
+		formatString: 0
+		lineageTag: e319a70d-cc53-45d5-9cc3-46ebfe8df4a4
+		sourceLineageTag: tomatoes.fresh
+		summarizeBy: sum
+		sourceColumn: tomatoes.fresh
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ratings = entity
+		mode: directLake
+		source
+			entityName: ratings
+			expressionSource: 'DirectLake - Mflix_Lake'
+

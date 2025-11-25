@@ -28,8 +28,6 @@ table Theatres
 
 		changedProperty = Name
 
-		changedProperty = DataType
-
 		annotation SummarizationSetBy = Automatic
 
 	column Street1

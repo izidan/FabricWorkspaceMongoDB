@@ -163,15 +163,15 @@
       "isHidden": true,
       "loadEnabled": false
     },
-    "companies_DataDestination": {
-      "queryId": "db3c0c3d-5eea-4f02-bca9-778d44a3ff65",
-      "queryName": "companies_DataDestination",
-      "isHidden": true,
-      "loadEnabled": false
-    },
     "DefaultDestination": {
       "queryId": "ec3462aa-4b5d-4e07-a0fc-af563e2f6a21",
       "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "companies_DataDestination": {
+      "queryId": "ee7e67a4-c570-48aa-a07d-055b1b533fdc",
+      "queryName": "companies_DataDestination",
       "isHidden": true,
       "loadEnabled": false
     }

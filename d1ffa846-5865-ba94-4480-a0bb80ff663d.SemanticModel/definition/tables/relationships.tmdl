@@ -4,10 +4,13 @@ table relationships
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 84603a80-32a7-4454-ba5f-94d41d863231
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

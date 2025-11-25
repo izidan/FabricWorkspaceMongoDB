@@ -1,0 +1,31 @@
+table directors
+	lineageTag: 9dc35508-6add-40da-8209-7cb574cee60d
+	sourceLineageTag: [dbo].[directors]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 109fab3d-d7d7-4175-bcfe-df2cf766a3f6
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column director
+		dataType: string
+		lineageTag: 73c6d12d-0d97-4e4b-b702-6612b3e8c21c
+		sourceLineageTag: director
+		summarizeBy: none
+		sourceColumn: director
+
+		annotation SummarizationSetBy = Automatic
+
+	partition directors = entity
+		mode: directLake
+		source
+			entityName: directors
+			expressionSource: 'DirectLake - Mflix_Lake'
+

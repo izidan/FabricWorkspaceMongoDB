@@ -13,6 +13,13 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb","WebModelingEdit"]
 
 ref table Comments
-ref table 'Movies Ratings'
 ref table Theatres
+ref table Actors
+ref table Directors
+ref table Countries
+ref table Shows
+ref table Ratings
+ref table Genres
+ref table Languages
+ref table Writers
 

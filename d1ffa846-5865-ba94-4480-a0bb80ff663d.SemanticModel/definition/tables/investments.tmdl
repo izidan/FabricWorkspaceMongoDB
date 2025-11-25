@@ -13,10 +13,13 @@ table investments
 
 	column funding_id
 		dataType: string
+		isHidden
 		lineageTag: ef721177-5039-46c7-9bb1-988bca5de556
 		sourceLineageTag: funding_id
 		summarizeBy: none
 		sourceColumn: funding_id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

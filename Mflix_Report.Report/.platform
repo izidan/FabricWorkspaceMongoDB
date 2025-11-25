@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "Report",
-    "displayName": "Movies_Report"
+    "displayName": "Mflix_Report"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "eddb75de-1e6e-adca-41b9-81c42a15ef9d"
+    "logicalId": "1e903e5d-2041-9617-420b-58ed2d053445"
   }
 }

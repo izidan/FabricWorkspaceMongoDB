@@ -281,11 +281,11 @@ shared links_DataDestination = let
   TableNavigation = Navigation_2{[Id = "links", ItemKind = "Table"]}?[Data]?
 in
   TableNavigation;
+shared DefaultDestination = Lakehouse.Contents([EnableFolding = false]){[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data]{[lakehouseId = "85ea02a7-d1dc-464c-a28a-b88a7362a4f1"]}[Data];
 shared companies_DataDestination = let
   Pattern = Lakehouse.Contents([HierarchicalNavigation = null, CreateNavigationProperties = false, EnableFolding = false]),
   Navigation_1 = Pattern{[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data],
   Navigation_2 = Navigation_1{[lakehouseId = "85ea02a7-d1dc-464c-a28a-b88a7362a4f1"]}[Data],
-  TableNavigation = Navigation_2{[Id = "companies_cleansed", ItemKind = "Table"]}?[Data]?
+  TableNavigation = Navigation_2{[Id = "organizations", ItemKind = "Table"]}?[Data]?
 in
   TableNavigation;
-shared DefaultDestination = Lakehouse.Contents([EnableFolding = false]){[workspaceId = "2e558e5c-dad3-4673-8242-c21e57e63da5"]}[Data]{[lakehouseId = "85ea02a7-d1dc-464c-a28a-b88a7362a4f1"]}[Data];

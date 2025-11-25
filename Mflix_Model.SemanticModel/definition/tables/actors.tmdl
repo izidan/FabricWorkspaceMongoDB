@@ -1,0 +1,31 @@
+table actors
+	lineageTag: aa536ec7-7359-4c23-9b45-1134b8104072
+	sourceLineageTag: [dbo].[actors]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: c35b9de0-dcf8-48f3-bd84-2b84f99ed049
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column actor
+		dataType: string
+		lineageTag: bd0bb9b2-a6b9-495c-b24a-6df9ed213630
+		sourceLineageTag: actor
+		summarizeBy: none
+		sourceColumn: actor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition actors = entity
+		mode: directLake
+		source
+			entityName: actors
+			expressionSource: 'DirectLake - Mflix_Lake'
+

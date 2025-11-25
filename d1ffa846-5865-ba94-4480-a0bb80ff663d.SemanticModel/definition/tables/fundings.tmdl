@@ -4,10 +4,13 @@ table fundings
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 5e4f6272-c574-4593-88d4-ef2e7a144e19
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 
@@ -98,10 +101,13 @@ table fundings
 
 	column funding_id
 		dataType: string
+		isHidden
 		lineageTag: ce082085-c32e-446a-9ef8-b430a1eb66ff
 		sourceLineageTag: funding_id
 		summarizeBy: none
 		sourceColumn: funding_id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

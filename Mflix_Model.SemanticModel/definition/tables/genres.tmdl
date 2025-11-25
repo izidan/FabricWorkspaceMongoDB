@@ -1,0 +1,31 @@
+table genres
+	lineageTag: 06170053-ec44-4170-ae35-a25ed7585e53
+	sourceLineageTag: [dbo].[genres]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 14845b0a-e1fa-4f6f-96c7-2f6ac044442f
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column genre
+		dataType: string
+		lineageTag: 5ba768ba-3910-4a80-8e5f-70456d6ac04f
+		sourceLineageTag: genre
+		summarizeBy: none
+		sourceColumn: genre
+
+		annotation SummarizationSetBy = Automatic
+
+	partition genres = entity
+		mode: directLake
+		source
+			entityName: genres
+			expressionSource: 'DirectLake - Mflix_Lake'
+

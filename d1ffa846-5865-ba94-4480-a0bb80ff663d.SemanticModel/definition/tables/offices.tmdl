@@ -4,10 +4,13 @@ table offices
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 5d755f67-dc84-4bda-b4b7-0d0514aa752f
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

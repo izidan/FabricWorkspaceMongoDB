@@ -22,10 +22,13 @@ table products
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 978e1485-31bf-499e-9d8e-f4bf862b79a6
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

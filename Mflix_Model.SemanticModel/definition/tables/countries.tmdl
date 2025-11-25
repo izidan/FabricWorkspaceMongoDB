@@ -1,0 +1,28 @@
+table countries
+	lineageTag: e284330b-54b7-4e44-953c-5613c7e6ee8e
+	sourceLineageTag: [dbo].[countries]
+
+	column _id
+		dataType: string
+		lineageTag: c9bf5752-3389-493c-b0eb-e306b8d7d8e0
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 12d31a27-d799-43dd-b2f1-da49cb3737b2
+		sourceLineageTag: country
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	partition countries = entity
+		mode: directLake
+		source
+			entityName: countries
+			expressionSource: 'DirectLake - Mflix_Lake'
+

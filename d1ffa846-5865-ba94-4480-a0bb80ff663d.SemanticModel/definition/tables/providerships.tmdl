@@ -4,10 +4,13 @@ table providerships
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 19ebfac9-9c09-4077-9b7c-bd8035166f5a
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

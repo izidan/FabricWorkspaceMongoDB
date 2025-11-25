@@ -1,0 +1,56 @@
+table Writers
+	lineageTag: d40c3e5d-b0af-4936-88d9-10ac412d3fdf
+	sourceLineageTag: [dbo].[writers]
+
+	column 'Show ID'
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: 968c470a-94e2-41d0-a619-961e648f369a
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The name of the writer
+	column Writer
+		dataType: string
+		isNullable: false
+		lineageTag: 99d7cfac-3df3-4a13-8395-826319879467
+		sourceLineageTag: writer
+		summarizeBy: none
+		sourceColumn: writer
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The role the writer contributed to in writing the show
+	column Role
+		dataType: string
+		lineageTag: 69d79acd-8e4b-47ad-b29f-04b07504c10f
+		sourceLineageTag: role
+		summarizeBy: none
+		sourceColumn: role
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Writers = entity
+		mode: directLake
+		source
+			entityName: writers
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+

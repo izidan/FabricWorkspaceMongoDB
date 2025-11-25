@@ -16,19 +16,48 @@
       "isHidden": true,
       "loadEnabled": false
     },
-    "movies": {
+    "shows": {
       "queryId": "2fe9c77a-d1ef-43c1-8878-c732a942b1e1",
-      "queryName": "movies",
+      "queryName": "shows",
       "loadEnabled": false
     },
-    "movies_DataDestination": {
-      "queryId": "71d9fc50-7885-4e21-a812-21867ebb6be3",
-      "queryName": "movies_DataDestination",
-      "isHidden": true,
+    "ratings": {
+      "queryId": "af37b49e-900d-4836-8fc8-1f34e291e279",
+      "queryName": "ratings",
+      "loadEnabled": false
+    },
+    "genres": {
+      "queryId": "4c23509b-0134-473f-841b-7d83346dafc8",
+      "queryName": "genres",
+      "loadEnabled": false
+    },
+    "actors": {
+      "queryId": "5f8e8c01-aebf-41c1-99b4-b7880222fa9d",
+      "queryName": "actors",
+      "loadEnabled": false
+    },
+    "languages": {
+      "queryId": "12d2a440-84fa-4e2d-a86b-eed270d49b88",
+      "queryName": "languages",
+      "loadEnabled": false
+    },
+    "directors": {
+      "queryId": "7cb838e1-0c7c-4af1-a8c5-b8f2d8402a71",
+      "queryName": "directors",
+      "loadEnabled": false
+    },
+    "countries": {
+      "queryId": "6ea414a4-cf0d-4317-91d1-9c5ce812653f",
+      "queryName": "countries",
+      "loadEnabled": false
+    },
+    "writers": {
+      "queryId": "6810f742-696f-4153-bd1d-03bb58fe6ac6",
+      "queryName": "writers",
       "loadEnabled": false
     },
     "theaters_DataDestination": {
-      "queryId": "e4dacf78-e9ad-44f5-ae1f-de38844e6aa0",
+      "queryId": "c7ffacd3-fccc-44e9-aea1-6b5cfe0ff11a",
       "queryName": "theaters_DataDestination",
       "isHidden": true,
       "loadEnabled": false

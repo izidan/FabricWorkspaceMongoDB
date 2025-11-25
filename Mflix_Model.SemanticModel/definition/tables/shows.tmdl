@@ -1,0 +1,170 @@
+table shows
+	lineageTag: 6d93ccad-5d6d-46ee-9a18-e992a89edad2
+	sourceLineageTag: [dbo].[shows]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 07c14d57-97e9-4924-ad15-a4e42a124e95
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column plot
+		dataType: string
+		lineageTag: 21a4ddc0-7c8a-42fe-bd65-af35e7628ecb
+		sourceLineageTag: plot
+		summarizeBy: none
+		sourceColumn: plot
+
+		annotation SummarizationSetBy = Automatic
+
+	column runtime
+		dataType: double
+		lineageTag: 45c6b4e4-2a47-4007-a61c-7e7e50038c5a
+		sourceLineageTag: runtime
+		summarizeBy: sum
+		sourceColumn: runtime
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column poster
+		dataType: string
+		lineageTag: f8e15d2f-8890-4507-bed3-f1bdc8bc2ce4
+		sourceLineageTag: poster
+		summarizeBy: none
+		sourceColumn: poster
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: b7a376a3-1cc1-49a3-8395-eeebdf7b8466
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column fullplot
+		dataType: string
+		lineageTag: d6f4f15e-2193-4aad-ac16-0ad867e0982c
+		sourceLineageTag: fullplot
+		summarizeBy: none
+		sourceColumn: fullplot
+
+		annotation SummarizationSetBy = Automatic
+
+	column released
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e8b19fbb-619f-4f6d-a46e-c6f9b1691058
+		sourceLineageTag: released
+		summarizeBy: none
+		sourceColumn: released
+
+		annotation SummarizationSetBy = Automatic
+
+	column rated
+		dataType: string
+		lineageTag: 3b5113bd-9d72-47ab-99fa-15769336b85d
+		sourceLineageTag: rated
+		summarizeBy: none
+		sourceColumn: rated
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.wins'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d523028-691a-4649-91b7-edadc985d74f
+		sourceLineageTag: awards.wins
+		summarizeBy: sum
+		sourceColumn: awards.wins
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.nominations'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d2a7e9c-3849-4f89-89b9-0e01f5c31a32
+		sourceLineageTag: awards.nominations
+		summarizeBy: sum
+		sourceColumn: awards.nominations
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'awards.text'
+		dataType: string
+		lineageTag: e536b424-69ab-4871-8cf5-6a791452ac88
+		sourceLineageTag: awards.text
+		summarizeBy: none
+		sourceColumn: awards.text
+
+		annotation SummarizationSetBy = Automatic
+
+	column lastupdated
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e1fdf05a-a7aa-4a77-8a29-b2f70ec9306b
+		sourceLineageTag: lastupdated
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: f71b0535-5459-4f38-9fbf-fc0bf9ce63dc
+		sourceLineageTag: year
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: 29ccb9ff-5dfa-4d9a-a059-588931c6b73a
+		sourceLineageTag: type
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_mflix_comments
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 06e19867-1308-40a1-92c0-a0d80cf35786
+		sourceLineageTag: num_mflix_comments
+		summarizeBy: sum
+		sourceColumn: num_mflix_comments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column metacritic
+		dataType: double
+		lineageTag: 1afb3ea7-a421-429a-a8c3-b2e3ae2f18c2
+		sourceLineageTag: metacritic
+		summarizeBy: sum
+		sourceColumn: metacritic
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition shows = entity
+		mode: directLake
+		source
+			entityName: shows
+			expressionSource: 'DirectLake - Mflix_Lake'
+

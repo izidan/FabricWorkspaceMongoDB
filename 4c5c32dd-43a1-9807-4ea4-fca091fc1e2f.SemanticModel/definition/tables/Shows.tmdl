@@ -1,0 +1,244 @@
+table Shows
+	lineageTag: 9ddbf273-0143-4c1a-ba49-a44b2dcf1da8
+	sourceLineageTag: [dbo].[shows]
+
+	column 'Show ID'
+		dataType: string
+		isNullable: false
+		lineageTag: 6ce53d56-9892-4452-a612-7732558626b6
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The main events of the show
+	column Plot
+		dataType: string
+		lineageTag: a7f957c9-0c60-43ec-86cc-87f78957cca6
+		sourceLineageTag: plot
+		summarizeBy: none
+		sourceColumn: plot
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Runtime
+		dataType: double
+		lineageTag: 5023f7d4-3516-4933-b26c-e91c9c0fd5b6
+		sourceLineageTag: runtime
+		summarizeBy: sum
+		sourceColumn: runtime
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// The main poster of the show
+	column Poster
+		dataType: string
+		lineageTag: a44149ff-c50a-4c75-ac3f-c7a3e61a4060
+		sourceLineageTag: poster
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: poster
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Main title of the show
+	column Title
+		dataType: string
+		lineageTag: 550598ac-1446-48fc-93e0-dcf5f7b26da3
+		sourceLineageTag: title
+		summarizeBy: none
+		sourceColumn: title
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Detailed summary of the story
+	column 'Full Plot'
+		dataType: string
+		lineageTag: c433b727-4238-4ad8-a5f9-efdd63655813
+		sourceLineageTag: fullplot
+		summarizeBy: none
+		sourceColumn: fullplot
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The date first released
+	column Released
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 2f47660b-5db0-4d70-8340-44971818e63f
+		sourceLineageTag: released
+		summarizeBy: none
+		sourceColumn: released
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Age rating and classification
+	column Rated
+		dataType: string
+		lineageTag: 26a3ed8d-6bb3-4b71-be0d-7e58d2267c6b
+		sourceLineageTag: rated
+		summarizeBy: none
+		sourceColumn: rated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The number of the awards won
+	column Wins
+		dataType: int64
+		formatString: 0
+		lineageTag: dda86fa1-da4c-45f3-b7ed-8307dfc3b48b
+		sourceLineageTag: awards.wins
+		summarizeBy: sum
+		sourceColumn: awards.wins
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The number of the awards nominated for
+	column Nominations
+		dataType: int64
+		formatString: 0
+		lineageTag: 0673b4f3-170e-41a7-9e3c-103834075be4
+		sourceLineageTag: awards.nominations
+		summarizeBy: sum
+		sourceColumn: awards.nominations
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Summary of nominations and awards won
+	column Awards
+		dataType: string
+		lineageTag: b1930180-da53-4b8d-9c8a-eae7312685ef
+		sourceLineageTag: awards.text
+		summarizeBy: none
+		sourceColumn: awards.text
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Last updated date of the show record
+	column 'Last Updated'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 7ff6448d-4274-4004-9c58-bed05b2234d1
+		sourceLineageTag: lastupdated
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The production year
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 12e83210-a14d-4e01-a9b8-920116633f8d
+		sourceLineageTag: year
+		summarizeBy: sum
+		sourceColumn: year
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// The type of the show, either movie or series
+	column 'Show Type'
+		dataType: string
+		lineageTag: 91d3e0c0-fb76-44f0-a3ca-3b9cd639c227
+		sourceLineageTag: type
+		summarizeBy: none
+		sourceColumn: type
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_mflix_comments
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ad3163c8-99f8-487d-8a23-a431c3141ac4
+		sourceLineageTag: num_mflix_comments
+		summarizeBy: sum
+		sourceColumn: num_mflix_comments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Metacritic score
+	column Metacritic
+		dataType: double
+		lineageTag: 135a6a6b-274d-4766-ae5b-01d40a610e54
+		sourceLineageTag: metacritic
+		summarizeBy: sum
+		sourceColumn: metacritic
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Shows = entity
+		mode: directLake
+		source
+			entityName: shows
+			expressionSource: 'DirectLake - Mflix_Lake'
+
+	changedProperty = Name
+

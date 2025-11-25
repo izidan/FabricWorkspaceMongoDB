@@ -1,0 +1,42 @@
+relationship 3b1956ed-69e6-4e2d-60c4-6a9ec4b811f9
+	crossFilteringBehavior: bothDirections
+	relyOnReferentialIntegrity
+	fromCardinality: one
+	fromColumn: shows._id
+	toColumn: ratings._id
+
+relationship 54b376bf-2bad-d6df-5932-3ec4d2ed504a
+	relyOnReferentialIntegrity
+	fromColumn: writers._id
+	toColumn: shows._id
+
+relationship d57df507-a117-cf29-285e-649f04958c03
+	relyOnReferentialIntegrity
+	fromColumn: actors._id
+	toColumn: shows._id
+
+relationship 4e3c2652-d9bd-e171-8d8f-79148cea2915
+	relyOnReferentialIntegrity
+	fromColumn: comments.movie_id
+	toColumn: shows._id
+
+relationship b226d530-64ec-7ae0-8c7f-fdfd42614cf0
+	relyOnReferentialIntegrity
+	fromColumn: countries._id
+	toColumn: shows._id
+
+relationship a1237a3b-74ea-a1dd-01f6-1706a71c93fe
+	relyOnReferentialIntegrity
+	fromColumn: directors._id
+	toColumn: shows._id
+
+relationship 64a7f867-4d4d-c64c-dc72-fb7300d1eb51
+	relyOnReferentialIntegrity
+	fromColumn: genres._id
+	toColumn: shows._id
+
+relationship 7db833db-d802-ca8c-63f3-acabaf6d13b5
+	relyOnReferentialIntegrity
+	fromColumn: languages._id
+	toColumn: shows._id
+

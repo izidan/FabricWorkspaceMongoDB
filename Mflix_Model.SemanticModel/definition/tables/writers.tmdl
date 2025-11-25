@@ -1,0 +1,40 @@
+table writers
+	lineageTag: 48ea2ef8-536e-4cbf-b072-94d3cc03bf61
+	sourceLineageTag: [dbo].[writers]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 9f491c31-0c3a-4443-a834-9b67a4bbe80b
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column writer
+		dataType: string
+		lineageTag: af5e3906-033c-41c9-8ef0-782d9d949bfa
+		sourceLineageTag: writer
+		summarizeBy: none
+		sourceColumn: writer
+
+		annotation SummarizationSetBy = Automatic
+
+	column role
+		dataType: string
+		lineageTag: 05064b88-08cc-4561-8537-7213547350d2
+		sourceLineageTag: role
+		summarizeBy: none
+		sourceColumn: role
+
+		annotation SummarizationSetBy = Automatic
+
+	partition writers = entity
+		mode: directLake
+		source
+			entityName: writers
+			expressionSource: 'DirectLake - Mflix_Lake'
+

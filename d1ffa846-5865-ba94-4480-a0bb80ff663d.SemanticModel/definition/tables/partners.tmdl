@@ -4,10 +4,13 @@ table partners
 
 	column _id
 		dataType: string
+		isHidden
 		lineageTag: 6e3b5cf2-8f1f-4c5e-8773-92eda712fad0
 		sourceLineageTag: _id
 		summarizeBy: none
 		sourceColumn: _id
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

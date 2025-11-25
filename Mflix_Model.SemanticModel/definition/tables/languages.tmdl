@@ -1,0 +1,31 @@
+table languages
+	lineageTag: 5754dec6-b514-4560-bd99-305f5d74baa1
+	sourceLineageTag: [dbo].[languages]
+
+	column _id
+		dataType: string
+		isHidden
+		lineageTag: 6205f53b-4a38-4b81-9577-382fb49e8c80
+		sourceLineageTag: _id
+		summarizeBy: none
+		sourceColumn: _id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column language
+		dataType: string
+		lineageTag: bb90f85c-c548-4530-a8cb-eb9e472bc815
+		sourceLineageTag: language
+		summarizeBy: none
+		sourceColumn: language
+
+		annotation SummarizationSetBy = Automatic
+
+	partition languages = entity
+		mode: directLake
+		source
+			entityName: languages
+			expressionSource: 'DirectLake - Mflix_Lake'
+
